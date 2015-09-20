@@ -72,8 +72,8 @@ public:
         irShader.linkProgram();
         
         // kinect.open(true, true, 0, 2); // GeForce on MacBookPro Retina
-//        kinect.open(true, true, 0, 2);
-//        kinect.start();
+        kinect.open(true, true, 0, 2);
+        kinect.start();
         
         gr.setup(kinect.getProtonect(), 2);
         
