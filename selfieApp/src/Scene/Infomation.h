@@ -205,7 +205,25 @@ public:
     void updateEnter(){}
     void updateEver(){}
     
-    int frameCount = 999;
+    
+    // End Btnが押された処理
+    void init()
+    {
+        $G(Data)->clear();
+
+        isLastInfo = false;
+        gifcount = 0;
+        gifimg.pos.y = -1000;
+        mng.release<InfoImg>();
+        
+        ofxOscMessage m3;
+        m3.setAddress("/setFocus");
+        m3.addFloatArg(0.0);
+        $G(Osc)->sendOscMessage(m3);
+    }
+    
+    
+    int frameCount = 5;
     
     void updateScene()
     {
@@ -216,56 +234,15 @@ public:
         Osc *osc = $G(Osc);
         ofxOscMessage m;
         
-        if(osc->getLatest("/info/play", m)) {
-            
-            // todo 別のところでinit, clear行う
-            $G(Data)->setNewUser();
-            
-            ofxOscMessage m3;
-            m3.setAddress("/setFocus");
-            m3.addFloatArg(0.0);
-            $G(Osc)->sendOscMessage(m3);
-            
-            isLastInfo = false;
-            gifcount = 0;
-            gifimg.pos.y = -1000;
-            mng.release<InfoImg>();
-
-            $G(Data)->setScene( m.getArgAsInt32(0) );
-            string name = m.getArgAsString(1);
-            
-            nowMC = mcs[name];
-            nowMC->visible(true);
-            nowMC->gotoAndPlay(0);
-            
-            if($G(Data)->getScene()==0) {
-                frameCount = 5;
-            }else if($G(Data)->getScene()==1){
-                frameCount = 7;
-            }else if($G(Data)->getScene()==2){
-                frameCount = 6;
-                $G(Data)->rect = ofRectangle( nowMC->getChildByName("rect")->x(), nowMC->getChildByName("rect")->y(),
-                            450, 450);
-            }
-            
-            if($G(Data)->getScene()==2){
-                mng.createInstance<InfoImg>(&infos[name], ofVec2f(WIDTH*0.5, HEIGHT*0.5-100.))->play(5);
-            }else{
-                mng.createInstance<InfoImg>(&infos[name])->play(5);
-            }
-            
-            float perStart;
-            Tweenzor::add( &perStart, 0.f, 1.f, 0.f, 5.f );
-            Tweenzor::addCompleteListener( Tweenzor::getTween(&perStart), this, &Infomation::playCountDown );
-        }
-        
+        if(osc->getLatest("/info/init", m)) init();
+        if(osc->getLatest("/info/play", m)) preset( m.getArgAsInt32(0), m.getArgAsString(1) );
 
         if(nowMC && $G(Data)->isRunning )
         {
             $G(Data)->progress = nowMC->currentFrame() / (float)nowMC->totalFrames();
             
             // Ball position 使いたい時だけ
-            if($G(Data)->getScene() == 0) {
+            if( $G(Data)->getScene() == 0 || $G(Data)->getScene() == 3 ) {
                 Tweenzor::add( &$G(Data)->nowPointer, $G(Data)->nowPointer,
                               getBallPosition(),
                               0.f, 0.1f, EASE_OUT_QUAD );
@@ -311,13 +288,57 @@ public:
         gif.resize($G(Data)->qrimg.img->width, $G(Data)->qrimg.img->height);
     }
     
+    
+    
+    
+    void preset( int sceneID, string McName )
+    {
+        $G(Data)->setNewUser();
+        $G(Data)->setScene( sceneID );
+        
+        string name = McName;
+        
+        nowMC = mcs[name];
+        nowMC->visible(true);
+        nowMC->gotoAndPlay(0);
+        
+        if($G(Data)->getScene()==0) {   // finger
+            frameCount = 5;
+        }else if($G(Data)->getScene()==1){   // unframe
+            frameCount = 7;
+        }else if($G(Data)->getScene()==2){   // rect
+            frameCount = 6;
+            $G(Data)->rect = ofRectangle( nowMC->getChildByName("rect")->x(), nowMC->getChildByName("rect")->y(),
+                                         450, 450);
+        }else if($G(Data)->getScene()==3){   // circle
+            frameCount = 7;
+            
+        }else if($G(Data)->getScene()==4 || $G(Data)->getScene()==5){   // kinect & kinect2
+            frameCount = 3;
+        }
+        
+        float InfoPracticeTime = 5.0; // インフォ+練習タイム 5s
+
+        if($G(Data)->getScene()==2){
+            mng.createInstance<InfoImg>(&infos[name], ofVec2f(WIDTH*0.5, HEIGHT*0.5-100.))->play(InfoPracticeTime);
+        }else{
+            mng.createInstance<InfoImg>(&infos[name])->play(InfoPracticeTime);
+        }
+        
+        float perStart;
+        Tweenzor::add( &perStart, 0.f, 1.f, 0.f, InfoPracticeTime );
+        Tweenzor::addCompleteListener( Tweenzor::getTween(&perStart), this, &Infomation::playCountDown );
+    }
+    
     void playCountDown(float* arg)
     {
-        mng.createInstance<CountDown>(3, &font, &countBg)->play(3);
+        float CountDownTime = 3.; // CountDown 3s
+
+        mng.createInstance<CountDown>(3, &font, &countBg)->play(CountDownTime);
         nowMC->gotoAndStop(0);
         
         float perStart;
-        Tweenzor::add( &perStart, 0.f, 1.f, 0.f, 3.f );
+        Tweenzor::add( &perStart, 0.f, 1.f, 0.f, CountDownTime );
         Tweenzor::addCompleteListener( Tweenzor::getTween(&perStart), this, &Infomation::PerAllComp );
     }
     
@@ -335,10 +356,9 @@ public:
     }
     
     
-    // SCENE 0
+    // SCENE 0,3
     ofVec2f getBallPosition() {
-        ofVec2f pos = ofVec2f::zero();
-        if($G(Data)->getScene() == 0) pos.set(nowMC->getChildByName("ball")->x(), nowMC->getChildByName("ball")->y());
+        ofVec2f pos(nowMC->getChildByName("ball")->x(), nowMC->getChildByName("ball")->y());
         return pos;
     }
     

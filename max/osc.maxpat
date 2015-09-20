@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 466.0, 765.0, 599.0, 397.0 ],
+		"rect" : [ 254.0, 819.0, 987.0, 397.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,277 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 256.0, 310.0, 129.0, 22.0 ],
+					"style" : "",
+					"text" : "route /oF/start /oF/end"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 619.0, 240.0, 58.0, 22.0 ],
+					"style" : "",
+					"text" : "s endBtn"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 555.0, 240.0, 61.0, 22.0 ],
+					"style" : "",
+					"text" : "s startBtn"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 884.0, 297.0, 45.0, 22.0 ],
+					"style" : "",
+					"text" : "s uvc8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 820.0, 297.0, 45.0, 22.0 ],
+					"style" : "",
+					"text" : "s uvc7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 760.0, 297.0, 45.0, 22.0 ],
+					"style" : "",
+					"text" : "s uvc6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 696.0, 297.0, 45.0, 22.0 ],
+					"style" : "",
+					"text" : "s uvc5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 696.0, 251.0, 253.0, 35.0 ],
+					"style" : "",
+					"text" : "route /webcam/Brightness /webcam/Contrast /webcam/Sharpness /webcam/AbsoluteFocus"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 884.0, 214.0, 45.0, 22.0 ],
+					"style" : "",
+					"text" : "s uvc4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 820.0, 214.0, 45.0, 22.0 ],
+					"style" : "",
+					"text" : "s uvc3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 760.0, 214.0, 45.0, 22.0 ],
+					"style" : "",
+					"text" : "s uvc2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 696.0, 214.0, 45.0, 22.0 ],
+					"style" : "",
+					"text" : "s uvc1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 696.0, 168.0, 275.0, 35.0 ],
+					"style" : "",
+					"text" : "route /webcam/Exposure /webcam/WhiteBalance /webcam/Gain /webcam/Saturation"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 625.5, 196.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 611.0, 232.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 625.5, 168.0, 39.0, 22.0 ],
+					"presentation_rect" : [ 611.0, 204.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "sel 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 555.0, 196.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 555.0, 168.0, 39.0, 22.0 ],
+					"style" : "",
+					"text" : "sel 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 555.0, 135.0, 160.0, 22.0 ],
+					"style" : "",
+					"text" : "route /touch/start /touch/end"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 577.0, 102.0, 138.0, 22.0 ],
+					"style" : "",
+					"text" : "/ping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 551.0, 40.0, 110.0, 27.0 ],
+					"presentation_rect" : [ 551.0, 40.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "from Touch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 555.0, 75.0, 106.0, 22.0 ],
+					"style" : "",
+					"text" : "udpreceive 13300"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -729,218 +1000,26 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 68,
+										"count" : 14,
 										"data" : [ 											{
 												"key" : "/color1",
-												"value" : [ 0.164706, 0.082353, 0.67451, 1.0 ]
+												"value" : [ 0.462745, 0.019608, 0.52549, 1.0 ]
 											}
 , 											{
 												"key" : "/color0",
-												"value" : [ 0.556863, 0.67451, 0.901961, 1.0 ]
-											}
-, 											{
-												"key" : "/Twitter/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/Plot/alpha",
-												"value" : [ 1.0 ]
-											}
-, 											{
-												"key" : "/Crystal/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/Snake/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/Snake/mnum",
-												"value" : [ 10.0, 19.9 ]
-											}
-, 											{
-												"key" : "/Node/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/Tsp/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/Twitter/blendmode",
-												"value" : [ 2 ]
-											}
-, 											{
-												"key" : "/Logo/blendmode",
-												"value" : [ 2 ]
-											}
-, 											{
-												"key" : "/Logo/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/bgcolor",
-												"value" : [ 0.0, 0.0, 0.0, 1.0 ]
-											}
-, 											{
-												"key" : "/Snake/blendmode",
-												"value" : [ 2 ]
-											}
-, 											{
-												"key" : "/Shader/RGB/magni",
-												"value" : [ 100.0 ]
-											}
-, 											{
-												"key" : "/Shader/alpha",
-												"value" : [ 1.0 ]
-											}
-, 											{
-												"key" : "/Shader/blendmode",
-												"value" : [ 5 ]
-											}
-, 											{
-												"key" : "/Shader/Blocking/maxsize",
-												"value" : [ 30 ]
-											}
-, 											{
-												"key" : "/Shader/Blocking/volsize",
-												"value" : [ 1 ]
-											}
-, 											{
-												"key" : "/Shader/Blur/max",
-												"value" : [ 9.3 ]
-											}
-, 											{
-												"key" : "/Shader/Kaleid/plus",
-												"value" : [ 815.0, -452.0 ]
-											}
-, 											{
-												"key" : "/Shader/Kaleid/segments",
-												"value" : [ 1.504 ]
-											}
-, 											{
-												"key" : "/Shader/Kaleid/zoom",
-												"value" : [ 2.8 ]
-											}
-, 											{
-												"key" : "/Shader/Outline/lwidth",
-												"value" : [ 1.57 ]
-											}
-, 											{
-												"key" : "/Shader/Toon/ambientColor",
-												"value" : [ 0.0, 0.0, 0.0, 1.0 ]
-											}
-, 											{
-												"key" : "/Shader/Toon/diffuseColor",
-												"value" : [ 1.0, 0.188976, 0.0, 0.0 ]
-											}
-, 											{
-												"key" : "/Shader/Toon/level",
-												"value" : [ 1142.0 ]
-											}
-, 											{
-												"key" : "/Shader/Toon/lightposi",
-												"value" : [ 0.0, 0.0, -181.0 ]
-											}
-, 											{
-												"key" : "/Shader/Toon/shinyness",
-												"value" : [ 100.0 ]
-											}
-, 											{
-												"key" : "/Shader/Twist/magni",
-												"value" : [ 24.0 ]
-											}
-, 											{
-												"key" : "/Shader/Twist/rad",
-												"value" : [ 258.0 ]
-											}
-, 											{
-												"key" : "/Crystal/blendmode",
-												"value" : [ 1 ]
-											}
-, 											{
-												"key" : "/Node/blendmode",
-												"value" : [ 2 ]
-											}
-, 											{
-												"key" : "/Plot/blendmode",
-												"value" : [ 2 ]
-											}
-, 											{
-												"key" : "/Mesh/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/Mesh/blendmode",
-												"value" : [ 1 ]
-											}
-, 											{
-												"key" : "/Mesh/dmode",
-												"value" : [ 1 ]
-											}
-, 											{
-												"key" : "/BlockRoots/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/BlockRoots/blendmode",
-												"value" : [ 1 ]
-											}
-, 											{
-												"key" : "/Tsp/blendmode",
-												"value" : [ 1 ]
-											}
-, 											{
-												"key" : "/WireCube/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/WireCube/blendmode",
-												"value" : [ 1 ]
-											}
-, 											{
-												"key" : "/PS/alpha",
-												"value" : [ 0.0 ]
-											}
-, 											{
-												"key" : "/PS/blendmode",
-												"value" : [ 1 ]
-											}
-, 											{
-												"key" : "/cam/pos",
-												"value" : [ 0.0, -19.0, -52.0 ]
-											}
-, 											{
-												"key" : "/cam/target",
-												"value" : [ 0.0, 0.0, 55.0 ]
-											}
-, 											{
-												"key" : "/WebCamera/alpha",
-												"value" : [ 1.0 ]
+												"value" : [ 0.168627, 0.196078, 0.631373, 1.0 ]
 											}
 , 											{
 												"key" : "/Kinect/alpha",
 												"value" : [ 0.0 ]
 											}
 , 											{
-												"key" : "/cam/rotate",
-												"value" : [ 0.0 ]
+												"key" : "/cam/target",
+												"value" : [ 0.0, 0.0, 200.0 ]
 											}
 , 											{
-												"key" : "/cam/rotateradius",
-												"value" : [ 762.0 ]
-											}
-, 											{
-												"key" : "/cam/timescale",
-												"value" : [ 20.0 ]
-											}
-, 											{
-												"key" : "/kinect/offset",
-												"value" : [ 2.8, -11.0, -84.800003 ]
-											}
-, 											{
-												"key" : "/kinect/center",
-												"value" : [ 271.0, 200.0, -80.0 ]
+												"key" : "/cam/pos",
+												"value" : [ 0.0, -13.0, -123.0 ]
 											}
 , 											{
 												"key" : "/kinect/min",
@@ -948,59 +1027,35 @@
 											}
 , 											{
 												"key" : "/kinect/max",
-												"value" : [ 100.541817 ]
+												"value" : [ 209.016388 ]
+											}
+, 											{
+												"key" : "/kinect/offset",
+												"value" : [ 0.0, -8.0, -115.0 ]
+											}
+, 											{
+												"key" : "/kinect/center",
+												"value" : [ 271.0, 200.0, -80.0 ]
 											}
 , 											{
 												"key" : "/kinect/vleng",
-												"value" : [ 200 ]
+												"value" : [ 220 ]
 											}
 , 											{
-												"key" : "/Flash/alpha",
-												"value" : [ 1.0 ]
+												"key" : "/kinect/bure",
+												"value" : [ 2 ]
 											}
 , 											{
-												"key" : "/Infomation/blendmode",
+												"key" : "/kinect/param",
+												"value" : [ 86.0 ]
+											}
+, 											{
+												"key" : "/Kinect/blendmode",
 												"value" : [ 1 ]
-											}
-, 											{
-												"key" : "/Infomation/alpha",
-												"value" : [ 1.0 ]
-											}
-, 											{
-												"key" : "/uvc/Saturation",
-												"value" : [ 0.164021 ]
-											}
-, 											{
-												"key" : "/uvc/Brightness",
-												"value" : [ 0.530879 ]
-											}
-, 											{
-												"key" : "/uvc/Contrast",
-												"value" : [ 0.719447 ]
-											}
-, 											{
-												"key" : "/uvc/Sharpness",
-												"value" : [ 0.504684 ]
 											}
 , 											{
 												"key" : "/uvc/AbsoluteFocus",
 												"value" : [ 0.5 ]
-											}
-, 											{
-												"key" : "/uvc/Exposure",
-												"value" : [ 0.742172 ]
-											}
-, 											{
-												"key" : "/uvc/WhiteBalance",
-												"value" : [ 0.428571 ]
-											}
-, 											{
-												"key" : "/uvc/Gain",
-												"value" : [ 0.248677 ]
-											}
-, 											{
-												"key" : "/uvc/isKinectControll",
-												"value" : [ 0 ]
 											}
  ]
 									}
@@ -1354,6 +1409,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-90", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1385,6 +1449,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 4 ]
 				}
 
 			}
@@ -1444,6 +1517,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1471,10 +1562,172 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-67", 1 ]
 				}
 
 			}

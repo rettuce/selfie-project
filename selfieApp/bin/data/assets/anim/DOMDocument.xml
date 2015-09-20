@@ -1,12 +1,18 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#999999" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="2.6" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 15.0 build 179" majorVersion="15" buildNumber="179" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <media>
+          <DOMBitmapItem name="arrow" itemID="55fee254-00000138" sourceExternalFilepath="ビットマップ1.png" sourceLastImported="1442767432" sourcePlatform="macintosh" externalFileSize="3603" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="arrow.png" bitmapDataHRef="M 2 1442767432.dat" frameRight="5640" frameBottom="13120"/>
+          <DOMBitmapItem name="arrow2" itemID="55feeba1-000001d6" sourceExternalFilepath="ビットマップ1.png" sourceLastImported="1442769825" sourcePlatform="macintosh" externalFileSize="13369" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="arrow2.png" bitmapDataHRef="M 6 1442769811.dat" frameRight="11960" frameBottom="13940"/>
           <DOMBitmapItem name="ビットマップ1" itemID="55fcbfac-00000181" sourceExternalFilepath="../anim/LIBRARY/ビットマップ1.png" sourceLastImported="1442627443" sourcePlatform="macintosh" externalFileSize="17792" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ビットマップ1.png" bitmapDataHRef="M 1 1442627442.dat" frameRight="18080" frameBottom="6440"/>
      </media>
      <symbols>
-          <Include href="circle.xml" loadImmediate="false" itemID="55fc1ca3-00000162" lastModified="1442631136"/>
+          <Include href="arrowMC.xml" loadImmediate="false" itemID="55fee37e-0000015d" lastModified="1442767742"/>
+          <Include href="arrowMC2.xml" loadImmediate="false" itemID="55feebd3-000001db" lastModified="1442769875"/>
+          <Include href="circle.xml" loadImmediate="false" itemID="55fc1ca3-00000162" lastModified="1442791792"/>
           <Include href="circleMC.xml" loadImmediate="false" itemID="55fcc0af-00000187" lastModified="1442627760"/>
           <Include href="drawingLine.xml" loadImmediate="false" itemID="55fc102e-00000125" lastModified="1442628062"/>
           <Include href="finger.xml" loadImmediate="false" itemID="55fc1ad5-0000013d" lastModified="1442646544"/>
+          <Include href="kinect.xml" loadImmediate="false" itemID="55fee28e-00000143" lastModified="1442767778"/>
+          <Include href="kinect2.xml" loadImmediate="false" itemID="55fee3dc-0000016d" lastModified="1442769877"/>
           <Include href="line.xml" loadImmediate="false" itemID="55fc0f92-00000129" lastModified="1442627442"/>
           <Include href="lineMC.xml" loadImmediate="false" itemID="55fcc51a-0000018b" lastModified="1442628890"/>
           <Include href="msk.xml" loadImmediate="false" itemID="55fc05aa-0000043d" lastModified="1442582290"/>
@@ -18,11 +24,37 @@
      <timelines>
           <DOMTimeline name="シーン 1">
                <layers>
-                    <DOMLayer name="circle" color="#808080" autoNamed="false" heightLiteral="15">
+                    <DOMLayer name="kinect2" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="circle" name="circle">
+                                        <DOMSymbolInstance libraryItemName="kinect2" name="kinect2">
+                                             <transformationPoint>
+                                                  <Point x="960.4" y="513.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="kinect" color="#4F80FF" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="kinect" name="kinect">
+                                             <transformationPoint>
+                                                  <Point x="960.4" y="513.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="circle" color="#808080" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="circle" name="circle" selected="true">
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
@@ -31,7 +63,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="finger" color="#FF4FFF" autoNamed="false" heightLiteral="15">
+                    <DOMLayer name="finger" color="#FF4FFF" locked="true" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -44,7 +76,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="unframe" color="#FF800A" autoNamed="false" heightLiteral="15">
+                    <DOMLayer name="unframe" color="#FF800A" locked="true" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -57,11 +89,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="rect" color="#009999" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
+                    <DOMLayer name="rect" color="#009999" locked="true" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="rect" name="rect" selected="true">
+                                        <DOMSymbolInstance libraryItemName="rect" name="rect">
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
@@ -93,6 +125,17 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="32211" publishTime="1442791949"/>
+          <PublishItem publishSize="32211" publishTime="1442791800"/>
+          <PublishItem publishSize="32234" publishTime="1442769880"/>
+          <PublishItem publishSize="21223" publishTime="1442769775"/>
+          <PublishItem publishSize="21908" publishTime="1442769746"/>
+          <PublishItem publishSize="32972" publishTime="1442769648"/>
+          <PublishItem publishSize="33211" publishTime="1442769032"/>
+          <PublishItem publishSize="32918" publishTime="1442768322"/>
+          <PublishItem publishSize="20336" publishTime="1442767779"/>
+          <PublishItem publishSize="20331" publishTime="1442767748"/>
+          <PublishItem publishSize="20343" publishTime="1442767708"/>
           <PublishItem publishSize="17826" publishTime="1442664419"/>
           <PublishItem publishSize="17826" publishTime="1442661710"/>
           <PublishItem publishSize="17826" publishTime="1442661674"/>
@@ -102,16 +145,5 @@
           <PublishItem publishSize="18290" publishTime="1442646361"/>
           <PublishItem publishSize="18180" publishTime="1442629039"/>
           <PublishItem publishSize="18180" publishTime="1442628968"/>
-          <PublishItem publishSize="18134" publishTime="1442628939"/>
-          <PublishItem publishSize="18105" publishTime="1442628213"/>
-          <PublishItem publishSize="18105" publishTime="1442628139"/>
-          <PublishItem publishSize="16777" publishTime="1442628132"/>
-          <PublishItem publishSize="43088" publishTime="1442627871"/>
-          <PublishItem publishSize="1751" publishTime="1442627866"/>
-          <PublishItem publishSize="44281" publishTime="1442627490"/>
-          <PublishItem publishSize="30375" publishTime="1442627412"/>
-          <PublishItem publishSize="30335" publishTime="1442627283"/>
-          <PublishItem publishSize="30335" publishTime="1442627245"/>
-          <PublishItem publishSize="30335" publishTime="1442627189"/>
      </publishHistory>
 </DOMDocument>

@@ -5,8 +5,51 @@
 
 #include "ofxSvg.h"
 
+class Circle1 : public ofxAnimationPrimitives::Instance
+{
+public:
+    ofVec2f pos;
+    ofColor color;
+    ofVec3f vec;
+    float size;
+    
+    Circle1(ofVec2f pos_, ofColor color_, float size_)
+    : pos(pos_), color(color_), size(size_)
+    {
+        pos += ofVec2f(100.*ofRandomf(), 100.*ofRandomf());
+        
+        vec.set(ofRandomf(),ofRandomf(),ofRandomf());
+        vec.normalize();
+    }
+    void update(){
+        pos += vec*5;
+    }
+    void draw()
+    {
+        glPushAttrib(GL_ALL_ATTRIB_BITS);
+        ofPushMatrix();
+        ofPushStyle();
+        {
+            if(rand()%2==0) ofFill();
+            else ofNoFill();
+            ofEnableAlphaBlending();
+            ofSetLineWidth(5);
+            ofSetRectMode(OF_RECTMODE_CENTER);
+            ofSetColor( color , 255*getLife());
+            ofCircle(pos, 50.+size*(1-getLife()) );
+        }
+        ofPopStyle();
+        ofPopMatrix();
+        glPopAttrib();
+    }
+};
+
+
+
+
 class Effect : public BaseScene
 {
+    ofxAnimationPrimitives::InstanceManager mng;
     ofxSVG svg;
     vector<ofPolyline> outlines;
     
@@ -32,6 +75,7 @@ public:
     
     void updateScene()
     {
+        mng.update();
     }
     
     void drawScene()
@@ -56,6 +100,8 @@ public:
                 drawLogo();
             }else if( $G(Data)->getScene()==2 ) {
                 drawRecCap();
+            }else if( $G(Data)->getScene()==3 ) {
+                drawCircle();
             }
 
         }
@@ -124,6 +170,14 @@ public:
             ofSetLineWidth(3);
             ofRect( r );
         }
+    }
+    
+    void drawCircle()
+    {
+        if(ofGetFrameNum()%4==0) {
+            mng.createInstance<Circle1>( $G(Data)->nowPointer, $G(Color)->color0, ofRandom(50,200) )->play(0.5);
+        }
+        mng.draw();
     }
     
     

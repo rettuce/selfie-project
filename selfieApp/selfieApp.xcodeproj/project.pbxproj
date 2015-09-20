@@ -25,7 +25,6 @@
 		510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DEF695B88BA5FAACEAA937 /* UdpSocket.cpp */; };
 		5864AD82E20F15536D054EA3 /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF49D76C45D5DB505A234880 /* ofxOscMessage.cpp */; };
 		5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5DA1C87211D4F6377DA719 /* tinyxmlparser.cpp */; };
-		5E39F94A08ADD7F0C2032152 /* Delaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C93371FF2466553B4DA1D0B /* Delaunay.cpp */; };
 		6205DF95C4D4CD36CC5A274C /* Tween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D82EADA1C0761788285029E /* Tween.cpp */; };
 		62545D179C94265CA1389D4A /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63A47AC60FFAFC3BF093EC0F /* OscOutboundPacketStream.cpp */; };
 		63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DF87D612C5AAE17AAFA6C0 /* ofxXmlSettings.cpp */; };
@@ -77,10 +76,11 @@
 		897CB8561BADA18600B00F60 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 897CB8361BADA18600B00F60 /* qrspec.c */; };
 		897CB8571BADA18600B00F60 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 897CB8381BADA18600B00F60 /* rscode.c */; };
 		897CB8581BADA18600B00F60 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 897CB83A1BADA18600B00F60 /* split.c */; };
+		89E682861BAF5FB100AD64D1 /* Delaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E682811BAF5FB100AD64D1 /* Delaunay.cpp */; };
+		89E682871BAF5FB100AD64D1 /* ofxDelaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89E682841BAF5FB100AD64D1 /* ofxDelaunay.cpp */; };
 		8D0B283FA19BACFC2D3533EE /* ofProtonect2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6577C6C436CC968B54754753 /* ofProtonect2.cpp */; };
 		8F5205AEF8861EF234F0651A /* ofxOscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81967292BFC87A0144BD32C6 /* ofxOscSender.cpp */; };
 		90CFBDC258050F2A76C52BAD /* depth_packet_stream_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B7301B07E41A7860F065B /* depth_packet_stream_parser.cpp */; };
-		9102D0609CDD0B902F138C68 /* ofxDelaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBE3E908E4BB3468853C50ED /* ofxDelaunay.cpp */; };
 		933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */; };
 		995FA44819CBE344F3A99015 /* depth_packet_processor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 028B5D90B7A28E53F2A9D48C /* depth_packet_processor.cpp */; };
 		9BAEC2935795C61674F508DD /* ofxUVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1A2AA5DA1BD09A76CD6DD53 /* ofxUVC.mm */; };
@@ -174,7 +174,6 @@
 		2A5B1FAD3F30C8065C396ACB /* NetworkingUtilsWin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkingUtilsWin.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/win32/NetworkingUtilsWin.cpp; sourceTree = SOURCE_ROOT; };
 		2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxml.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
 		2C8FF4C0B8B4E24FF783BD26 /* Replicator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Replicator.h; path = ../../../addons/ofxAnimationPrimitives/src/ofxAnimationPrimitives/Replicator.h; sourceTree = SOURCE_ROOT; };
-		2C93371FF2466553B4DA1D0B /* Delaunay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Delaunay.cpp; path = ../../../addons/ofxDelaunay/libs/Delaunay/Delaunay.cpp; sourceTree = SOURCE_ROOT; };
 		2DBA5E0AA9A32F1737AEC5FB /* transfer_pool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = transfer_pool.cpp; path = ../../../addons/ofxMultiKinectV2/libs/protonect/src/transfer_pool.cpp; sourceTree = SOURCE_ROOT; };
 		2FD4B0329909D3527F003494 /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UdpSocket.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
 		3128E87323261A6DF841B1D7 /* version_nano.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = version_nano.h; path = ../../../addons/ofxMultiKinectV2/libs/libusb/include/libusb/version_nano.h; sourceTree = SOURCE_ROOT; };
@@ -343,8 +342,12 @@
 		897CB83B1BADA18600B00F60 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
 		897CB83D1BADA18600B00F60 /* ofxQREncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxQREncode.h; sourceTree = "<group>"; };
 		897CB83E1BADA18600B00F60 /* QrConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QrConf.h; sourceTree = "<group>"; };
+		89E6827C1BAF5D7100AD64D1 /* DelaunayMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayMesh.h; sourceTree = "<group>"; };
+		89E682811BAF5FB100AD64D1 /* Delaunay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Delaunay.cpp; sourceTree = "<group>"; };
+		89E682821BAF5FB100AD64D1 /* Delaunay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delaunay.h; sourceTree = "<group>"; };
+		89E682841BAF5FB100AD64D1 /* ofxDelaunay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxDelaunay.cpp; sourceTree = "<group>"; };
+		89E682851BAF5FB100AD64D1 /* ofxDelaunay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxDelaunay.h; sourceTree = "<group>"; };
 		8A6A1999CCC6DA2F394FA140 /* version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = version.h; path = ../../../addons/ofxMultiKinectV2/libs/libusb/include/libusb/version.h; sourceTree = SOURCE_ROOT; };
-		8AA89AFF4E71C7EC510642B7 /* ofxDelaunay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxDelaunay.h; path = ../../../addons/ofxDelaunay/src/ofxDelaunay.h; sourceTree = SOURCE_ROOT; };
 		8B0FE759D9212A5456551E25 /* rgb_packet_processor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = rgb_packet_processor.cpp; path = ../../../addons/ofxMultiKinectV2/libs/protonect/src/rgb_packet_processor.cpp; sourceTree = SOURCE_ROOT; };
 		8B30E93FD3D3475EED522A0E /* ofxOscBundle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscBundle.h; path = ../../../addons/ofxOsc/src/ofxOscBundle.h; sourceTree = SOURCE_ROOT; };
 		8C52CDB6CF9EAD9697F691A6 /* threading.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = threading.h; path = ../../../addons/ofxMultiKinectV2/libs/protonect/include/libfreenect2/threading.h; sourceTree = SOURCE_ROOT; };
@@ -374,7 +377,6 @@
 		B877ED09B35F60F33C634DAE /* Tween.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Tween.h; path = ../../../addons/ofxTweenzor/src/Tween.h; sourceTree = SOURCE_ROOT; };
 		BA50CE4E3327FFDDDC1CCE00 /* packet_processor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = packet_processor.h; path = ../../../addons/ofxMultiKinectV2/libs/protonect/include/libfreenect2/packet_processor.h; sourceTree = SOURCE_ROOT; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
-		BBE3E908E4BB3468853C50ED /* ofxDelaunay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxDelaunay.cpp; path = ../../../addons/ofxDelaunay/src/ofxDelaunay.cpp; sourceTree = SOURCE_ROOT; };
 		BC8881B3C8C0A1C45F042E7A /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscPrintReceivedElements.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
 		BFCBBFCAA2C92729B296C958 /* turbojpeg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = turbojpeg.h; path = "../../../addons/ofxTurboJpeg/libs/turbo-jpeg/include/turbojpeg.h"; sourceTree = SOURCE_ROOT; };
 		C2FAC65C491D4231379F3298 /* ofxOscReceiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscReceiver.cpp; path = ../../../addons/ofxOsc/src/ofxOscReceiver.cpp; sourceTree = SOURCE_ROOT; };
@@ -418,7 +420,6 @@
 		E4C2424610CC5A17004149E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		E5565AD6CF66D6A14BDF7EA1 /* Delaunay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Delaunay.h; path = ../../../addons/ofxDelaunay/libs/Delaunay/Delaunay.h; sourceTree = SOURCE_ROOT; };
 		E653056C22884664A6B37A4F /* ofxTweenzor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTweenzor.h; path = ../../../addons/ofxTweenzor/src/ofxTweenzor.h; sourceTree = SOURCE_ROOT; };
 		E6DEF695B88BA5FAACEAA937 /* UdpSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UdpSocket.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp; sourceTree = SOURCE_ROOT; };
 		E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
@@ -625,23 +626,6 @@
 				31304CCD831EB0FC889D69C9 /* ofxGlobalContext.h */,
 			);
 			name = src;
-			sourceTree = "<group>";
-		};
-		4DDDE89A215FFC6D84084F64 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				A7F935964A1EB7154C211E37 /* Delaunay */,
-			);
-			name = libs;
-			sourceTree = "<group>";
-		};
-		5A296432AD6765AD9158F813 /* ofxDelaunay */ = {
-			isa = PBXGroup;
-			children = (
-				BA7CA251A8C3541F18ECFFC2 /* src */,
-				4DDDE89A215FFC6D84084F64 /* libs */,
-			);
-			name = ofxDelaunay;
 			sourceTree = "<group>";
 		};
 		5E3FC5250F639CB045A17846 /* usb */ = {
@@ -1050,6 +1034,50 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		89E6827D1BAF5FB100AD64D1 /* ofxDelaunay */ = {
+			isa = PBXGroup;
+			children = (
+				89E6827E1BAF5FB100AD64D1 /* libs */,
+				89E682831BAF5FB100AD64D1 /* src */,
+			);
+			name = ofxDelaunay;
+			path = ../addons/ofxDelaunay;
+			sourceTree = "<group>";
+		};
+		89E6827E1BAF5FB100AD64D1 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				89E6827F1BAF5FB100AD64D1 /* Delaunay */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		89E6827F1BAF5FB100AD64D1 /* Delaunay */ = {
+			isa = PBXGroup;
+			children = (
+				89E682801BAF5FB100AD64D1 /* src */,
+			);
+			path = Delaunay;
+			sourceTree = "<group>";
+		};
+		89E682801BAF5FB100AD64D1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				89E682811BAF5FB100AD64D1 /* Delaunay.cpp */,
+				89E682821BAF5FB100AD64D1 /* Delaunay.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		89E682831BAF5FB100AD64D1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				89E682841BAF5FB100AD64D1 /* ofxDelaunay.cpp */,
+				89E682851BAF5FB100AD64D1 /* ofxDelaunay.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		95DA0149F6FE8A2707A30A41 /* ofxMultiKinectV2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1092,15 +1120,6 @@
 				B797FCD887640BEA00D9BEEB /* ofxKeyValueOSC.h */,
 			);
 			name = src;
-			sourceTree = "<group>";
-		};
-		A7F935964A1EB7154C211E37 /* Delaunay */ = {
-			isa = PBXGroup;
-			children = (
-				2C93371FF2466553B4DA1D0B /* Delaunay.cpp */,
-				E5565AD6CF66D6A14BDF7EA1 /* Delaunay.h */,
-			);
-			name = Delaunay;
 			sourceTree = "<group>";
 		};
 		A86A6B56E9FF2EFBC942D5F9 /* OpenCL */ = {
@@ -1151,18 +1170,10 @@
 			name = win32;
 			sourceTree = "<group>";
 		};
-		BA7CA251A8C3541F18ECFFC2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				BBE3E908E4BB3468853C50ED /* ofxDelaunay.cpp */,
-				8AA89AFF4E71C7EC510642B7 /* ofxDelaunay.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				89E6827D1BAF5FB100AD64D1 /* ofxDelaunay */,
 				897CB80C1BADA18600B00F60 /* ofxQRcode */,
 				897CB7F91BAD6A0500B00F60 /* ofxSvg */,
 				897CB7E41BAD0FF200B00F60 /* ofxTrueTypeFontUC */,
@@ -1173,7 +1184,6 @@
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
 				1D87296430B0A09AB81EFD7A /* ofxAnimationPrimitives */,
-				5A296432AD6765AD9158F813 /* ofxDelaunay */,
 				C036C6A3A63EB095263A4580 /* ofxGlobalContext */,
 				C0B63C51332F8C9643565EE6 /* ofxKeyValueOSC */,
 				95DA0149F6FE8A2707A30A41 /* ofxMultiKinectV2 */,
@@ -1324,6 +1334,7 @@
 				E4B69E1M0A3A1BDC003C02F2 /* Template.h */,
 				8929BB391BA9A66E000726F8 /* WebCamera.h */,
 				8929BBC31BA9B143000726F8 /* Kinect.h */,
+				89E6827C1BAF5D7100AD64D1 /* DelaunayMesh.h */,
 				8929BBC41BA9B159000726F8 /* Infomation.h */,
 				897CB7E31BAD074500B00F60 /* Effect.h */,
 			);
@@ -1584,8 +1595,6 @@
 				4A148DA231762B6E6A85CE1A /* Timer.cpp in Sources */,
 				897CB7E01BACF19E00B00F60 /* ofxFlashMatrix.cpp in Sources */,
 				897CB8561BADA18600B00F60 /* qrspec.c in Sources */,
-				9102D0609CDD0B902F138C68 /* ofxDelaunay.cpp in Sources */,
-				5E39F94A08ADD7F0C2032152 /* Delaunay.cpp in Sources */,
 				897CB8081BAD6A0500B00F60 /* svgtiny_gradient.cpp in Sources */,
 				897CB8511BADA18600B00F60 /* mmask.c in Sources */,
 				897CB7DE1BACF19E00B00F60 /* ofxFlashEventDispatcher.cpp in Sources */,
@@ -1625,6 +1634,7 @@
 				897CB8501BADA18600B00F60 /* mask.c in Sources */,
 				897CB7DA1BACF19E00B00F60 /* ofxFlashMovieClip.cpp in Sources */,
 				897CB8061BAD6A0500B00F60 /* src_colors.cpp in Sources */,
+				89E682861BAF5FB100AD64D1 /* Delaunay.cpp in Sources */,
 				34A1CD0B670B0A4266464779 /* ofxTurboJpeg.cpp in Sources */,
 				897CB8531BADA18600B00F60 /* qrenc.c in Sources */,
 				6205DF95C4D4CD36CC5A274C /* Tween.cpp in Sources */,
@@ -1633,6 +1643,7 @@
 				9BAEC2935795C61674F508DD /* ofxUVC.mm in Sources */,
 				897CB7E21BACF19E00B00F60 /* ofxFlashTransform.cpp in Sources */,
 				897CB7DD1BACF19E00B00F60 /* ofxFlashStage.cpp in Sources */,
+				89E682871BAF5FB100AD64D1 /* ofxDelaunay.cpp in Sources */,
 				39119CBB82BF8341392FF5CA /* UVCCameraControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,7 +17,6 @@ class WebCamera : public BaseScene
     
     vector<ofxUVCControl> controls;
     float dmyalp = 0.;
-    bool isKinectControll = false;
     
 public:
     
@@ -38,7 +37,9 @@ public:
         
         vidGrabber.initGrabber(camWidth, camHeight);
         
-        int deviceId = 0;
+        
+        int deviceId = 1;   ///////////////////////////////////////////////////////////// <- lab dev
+        
         vector<string> availableCams = vidGrabber.listVideoDevices();
         
         for(int i = 0; i < availableCams.size(); i++){
@@ -69,7 +70,7 @@ public:
     {
         Osc *osc = $G(Osc);
         ofxOscMessage m;
-        osc->getLatest("/uvc/isKinectControll", isKinectControll);
+
         if(osc->getLatest("/uvc/Exposure", m)){ uvcControl.setExposure(m.getArgAsFloat(0)); };
         if(osc->getLatest("/uvc/WhiteBalance", m)){ uvcControl.setWhiteBalance(m.getArgAsFloat(0)); };
         if(osc->getLatest("/uvc/Gain", m)){ uvcControl.setGain(m.getArgAsFloat(0)); };
@@ -79,10 +80,11 @@ public:
         if(osc->getLatest("/uvc/Sharpness", m)){ uvcControl.setSharpness(m.getArgAsFloat(0)); };
         if(osc->getLatest("/uvc/AbsoluteFocus", m)){ uvcControl.setAbsoluteFocus(m.getArgAsFloat(0)); };
         
-        if(isKinectControll){
-            dmyalp = ofClamp(($G(Data)->nearPer-0.6)/0.4, 0,1);
+        if($G(Data)->isKinectScene()) {
+            dmyalp = ofClamp(($G(Data)->nearPer-0.55)/0.45, 0,1);
             float AFocus = (1-$G(Data)->nearPer)/0.4;
             uvcControl.setAbsoluteFocus(AFocus);
+        
         }else{
             dmyalp = 1.;
         }
@@ -97,8 +99,7 @@ public:
         ofPushMatrix();
         ofPushStyle();
         {
-            ofSetColor(255, 255*getAlpha() * dmyalp);
-//            $G(Data)->colorTex->draw(0,0, $G(Data)->colorTex->getWidth(), $G(Data)->colorTex->getHeight() );
+            ofSetColor(255, 255*getAlpha());
             ofScale(-1,1);
             tex.draw(-camWidth,0, camWidth, camHeight);
         }

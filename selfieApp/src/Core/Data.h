@@ -66,14 +66,20 @@ public:
     // add frame
     vector<ofPixels> addsPixs;
     
-    void setNewUser()
+    
+    
+    
+    void clear()
     {
         addsPixs.clear();
         std::vector<ofPixels>().swap(addsPixs);
-
+        
         progress = 0.;
         qrimg.pos.y = -1000;
-        
+    }
+    
+    void setNewUser()
+    {
         KEY = ofGetTimestampString("%Y%m%d-%H%M%S");
         string URL = "http://selfie.rettuce.com/?id=" + KEY;
         qrencode.saveFile( QR, URL );
@@ -81,12 +87,14 @@ public:
         cout<< "UNIQUE KEY > " << KEY <<endl;
     }
     
-    
-    
     void setScene(int s) {
         SCENE = s;
     }
     int getScene(){ return SCENE; }
+    
+    bool isKinectScene(){
+        return (SCENE==4)||(SCENE==5);
+    }
     
 };
 

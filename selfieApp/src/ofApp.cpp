@@ -54,8 +54,8 @@ public:
     void update()
     {
         context.update();
-//        Tweenzor::update( ofGetElapsedTimeMillis() );
-        Tweenzor::update( ofGetFrameNum()/60.*1000. );  // 60fps
+        Tweenzor::update( ofGetElapsedTimeMillis() );
+//        Tweenzor::update( ofGetFrameNum()/60.*1000. );  // 60fps
 
         Osc *osc = $G(Osc);
         ofxOscMessage m;
@@ -79,8 +79,17 @@ public:
     
     void keyPressed(int key)
     {
+        ofxOscMessage m;
         switch (key)
         {
+            case ',':
+                m.setAddress("/oF/start");
+                $G(Osc)->sendOscMessage(m);
+                break;
+            case '.':
+                m.setAddress("/oF/end");
+                $G(Osc)->sendOscMessage(m);
+                break;
             case 'f':
                 ofToggleFullscreen();
                 break;
