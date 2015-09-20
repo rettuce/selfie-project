@@ -9,6 +9,23 @@ _max_ddd/
 output/ping/*
 output/gif/*
 
+#XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+#XCode 4
+xcuserdata
+*.xcworkspace
+
+#OSX
+.DS_Store
+*.swp
+*‾.nib
+# Thumbnails
+._*
+
 
 # Compiled Object files
 *.slo
