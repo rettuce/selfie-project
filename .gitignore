@@ -1,3 +1,15 @@
+
+00_*/
+addons/
+animation/
+Debug*/
+Release*/
+*.app/
+_max_ddd/
+output/ping/*
+output/gif/*
+
+
 # Compiled Object files
 *.slo
 *.lo
