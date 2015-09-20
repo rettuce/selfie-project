@@ -1,0 +1,117 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#999999" width="1920" height="1080" frameRate="30" currentTimeline="1" xflVersion="2.6" creatorInfo="Adobe Flash Professional CC" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 15.0 build 179" majorVersion="15" buildNumber="179" viewAngle3D="122.353661987282" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <media>
+          <DOMBitmapItem name="ビットマップ1" itemID="55fcbfac-00000181" sourceExternalFilepath="../anim/LIBRARY/ビットマップ1.png" sourceLastImported="1442627443" sourcePlatform="macintosh" externalFileSize="17792" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ビットマップ1.png" bitmapDataHRef="M 1 1442627442.dat" frameRight="18080" frameBottom="6440"/>
+     </media>
+     <symbols>
+          <Include href="circle.xml" loadImmediate="false" itemID="55fc1ca3-00000162" lastModified="1442631136"/>
+          <Include href="circleMC.xml" loadImmediate="false" itemID="55fcc0af-00000187" lastModified="1442627760"/>
+          <Include href="drawingLine.xml" loadImmediate="false" itemID="55fc102e-00000125" lastModified="1442628062"/>
+          <Include href="finger.xml" loadImmediate="false" itemID="55fc1ad5-0000013d" lastModified="1442646544"/>
+          <Include href="line.xml" loadImmediate="false" itemID="55fc0f92-00000129" lastModified="1442627442"/>
+          <Include href="lineMC.xml" loadImmediate="false" itemID="55fcc51a-0000018b" lastModified="1442628890"/>
+          <Include href="msk.xml" loadImmediate="false" itemID="55fc05aa-0000043d" lastModified="1442582290"/>
+          <Include href="point.xml" loadImmediate="false" itemID="55f9ace1-000001ce" lastModified="1442658726"/>
+          <Include href="rect.xml" loadImmediate="false" itemID="55fc1bd8-00000159" lastModified="1442664418"/>
+          <Include href="rectMC.xml" loadImmediate="false" itemID="55fcc095-00000183" lastModified="1442627734"/>
+          <Include href="unframe.xml" loadImmediate="false" itemID="55fc1a6d-0000012e" lastModified="1442659591"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="シーン 1">
+               <layers>
+                    <DOMLayer name="circle" color="#808080" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="circle" name="circle">
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="finger" color="#FF4FFF" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="finger" name="finger">
+                                             <transformationPoint>
+                                                  <Point x="1312.3" y="240.8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="unframe" color="#FF800A" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="unframe" name="unframe">
+                                             <transformationPoint>
+                                                  <Point x="981.4" y="521.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="rect" color="#009999" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="rect" name="rect" selected="true">
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="guide" color="#4F80FF" locked="true" autoNamed="false" layerType="guide" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFFFF" alpha="0.298039215686275"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!8400 0S2|30000 0!30000 0|30000 21600!30000 21600|8400 21600!8400 21600|8400 0"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory>
+          <PublishItem publishSize="17826" publishTime="1442664419"/>
+          <PublishItem publishSize="17826" publishTime="1442661710"/>
+          <PublishItem publishSize="17826" publishTime="1442661674"/>
+          <PublishItem publishSize="18257" publishTime="1442659593"/>
+          <PublishItem publishSize="18257" publishTime="1442658875"/>
+          <PublishItem publishSize="18290" publishTime="1442646419"/>
+          <PublishItem publishSize="18290" publishTime="1442646361"/>
+          <PublishItem publishSize="18180" publishTime="1442629039"/>
+          <PublishItem publishSize="18180" publishTime="1442628968"/>
+          <PublishItem publishSize="18134" publishTime="1442628939"/>
+          <PublishItem publishSize="18105" publishTime="1442628213"/>
+          <PublishItem publishSize="18105" publishTime="1442628139"/>
+          <PublishItem publishSize="16777" publishTime="1442628132"/>
+          <PublishItem publishSize="43088" publishTime="1442627871"/>
+          <PublishItem publishSize="1751" publishTime="1442627866"/>
+          <PublishItem publishSize="44281" publishTime="1442627490"/>
+          <PublishItem publishSize="30375" publishTime="1442627412"/>
+          <PublishItem publishSize="30335" publishTime="1442627283"/>
+          <PublishItem publishSize="30335" publishTime="1442627245"/>
+          <PublishItem publishSize="30335" publishTime="1442627189"/>
+     </publishHistory>
+</DOMDocument>

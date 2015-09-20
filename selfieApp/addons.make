@@ -1,0 +1,12 @@
+ofxOsc
+ofxXmlSettings
+ofxAnimationPrimitives
+ofxDelaunay
+ofxFlashLite
+ofxGlobalContext
+ofxKeyValueOSC
+ofxMultiKinectV2
+ofxTurboJpeg
+ofxTweenzor
+ofxUVC
+ofxYAML

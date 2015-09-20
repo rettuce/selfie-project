@@ -6,8 +6,8 @@ Debug*/
 Release*/
 *.app/
 _max_ddd/
-output/ping/**.png
-output/gif/**.gif
+output/
+
 
 #XCode
 *.pbxuser

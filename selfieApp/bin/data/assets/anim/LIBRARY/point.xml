@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="point" itemID="55f9ace1-000001ce" lastModified="1442658726">
+  <timeline>
+    <DOMTimeline name="point">
+      <layers>
+        <DOMLayer name="レイヤー 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMOvalObject objectWidth="30.4" objectHeight="30.4" x="-32.95" y="-22.35" selected="true" endAngle="0">
+                  <matrix>
+                    <Matrix a="0.986846923828125" d="0.986846923828125" tx="17.5" ty="7.05"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                </DOMOvalObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

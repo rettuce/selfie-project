@@ -1,0 +1,86 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="finger" itemID="55fc1ad5-0000013d" lastModified="1442646544">
+  <timeline>
+    <DOMTimeline name="finger" currentFrame="71">
+      <layers>
+        <DOMLayer name="line" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="72" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="lineMC">
+                  <matrix>
+                    <Matrix tx="835" ty="699"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="125" y="0.55"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3984375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="point" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="35" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1085" ty="700.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" duration="36" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="835" ty="700.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="71" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1085" ty="700.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="72" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="lineMC">
+                  <matrix>
+                    <Matrix tx="835" ty="699"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="125" y="0.55"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3984375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="rect" itemID="55fc1bd8-00000159" lastModified="1442664418">
+  <timeline>
+    <DOMTimeline name="rect" currentFrame="67">
+      <layers>
+        <DOMLayer name="レイヤー 3" color="#FF800A" current="true" isSelected="true" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="113" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="rectMC" name="rect" selected="true">
+                  <matrix>
+                    <Matrix a="1.03424072265625" d="1.03424072265625" tx="735" ty="550"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="210.35" y="210.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3984375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
