@@ -107,7 +107,7 @@ public:
     
     void updateScene()
     {
-        if($G(Data)->getScene()>=4) return;
+        if($G(Data)->getScene()<4) return;
         
         kinect.update();
         if (kinect.isFrameNew()) {
@@ -190,7 +190,7 @@ public:
                                 if( x>bure && x<w-bure ) xx = int(bure * ofRandomf());
                                 if( y>bure && y<h-bure ) yy = int(bure * ofRandomf());
                                 
-                                ofVec3f pt = kinect.getWorldCoordinateAt( x+xx, y+yy );
+                                ofVec3f pt = kinect.getWorldCoordinateAt( x+xx, y+yy, dist );
                                 float h = ofMap(dist, ThresholdMin, ThresholdMax, 1, 0, true);
                                 ofColor c = pixels->getColor((x+xx)*2, (y+yy)*2);
                                 c.a = 255 * getAlpha() * h;
@@ -237,6 +237,7 @@ public:
                         
                         if( dist1+dist2+dist3 < param ){
                             ofColor col = dlny.vertices[tri.p1].c;
+//                            ofColor col = pixels->getColor(p1.x,p1.y);
                             dlny.addFace( a, b, c, col );
                         }
                     }
@@ -260,7 +261,7 @@ public:
     
     void drawRender()
     {
-        if($G(Data)->getScene()>=4) return;
+        if($G(Data)->getScene()<4) return;
         
         glPushAttrib(GL_ALL_ATTRIB_BITS);
         ofPushMatrix();
@@ -274,16 +275,17 @@ public:
             // point
             
             if($G(Data)->getScene()==4) {
-                glBegin(GL_POINTS);
-                for (int i=0; i<mesh.getNumColors(); i++) {
-                    ofSetColor( mesh.getColor(i), 255*getAlpha());
-                    glVertex3fv( mesh.getVertex(i).getPtr() );
-                }
-                glEnd();
+//                glBegin(GL_POINTS);
+//                for (int i=0; i<mesh.getNumColors(); i++) {
+//                    ofSetColor( mesh.getColor(i), 255*getAlpha());
+//                    glVertex3fv( mesh.getVertex(i).getPtr() );
+//                }
+//                glEnd();
+                mesh.drawVertices();
                 
             }else if($G(Data)->getScene()==5){
                 
-                premesh.draw();
+                premesh.drawVertices();
                 dlny.draw();
             }
         }

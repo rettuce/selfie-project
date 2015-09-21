@@ -84,7 +84,10 @@ public:
             dmyalp = ofClamp(($G(Data)->nearPer-0.55)/0.45, 0,1);
             float AFocus = (1-$G(Data)->nearPer)/0.4;
             uvcControl.setAbsoluteFocus(AFocus);
-        
+
+        }else if($G(Data)->getScene()==5) {
+            dmyalp = 0.;
+            
         }else{
             dmyalp = 1.;
         }

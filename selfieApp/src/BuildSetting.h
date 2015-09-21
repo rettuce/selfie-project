@@ -1,6 +1,6 @@
 #pragma once
 
-#define MODE_DEBBUG
+//#define MODE_DEBBUG
 #define USE_KINECT
 
 #ifdef MODE_DEBBUG

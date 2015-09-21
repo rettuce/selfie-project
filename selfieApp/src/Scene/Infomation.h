@@ -358,7 +358,10 @@ public:
     
     // SCENE 0,3
     ofVec2f getBallPosition() {
-        ofVec2f pos(nowMC->getChildByName("ball")->x(), nowMC->getChildByName("ball")->y());
+        ofVec2f pos = ofVec2f::zero();
+        if( $G(Data)->getScene() == 0 || $G(Data)->getScene() == 3 ) {
+            pos.set(nowMC->getChildByName("ball")->x(), nowMC->getChildByName("ball")->y());
+        }
         return pos;
     }
     

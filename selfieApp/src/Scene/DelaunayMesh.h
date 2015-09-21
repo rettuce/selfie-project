@@ -78,8 +78,8 @@ public:
             // line
             mesh.drawWireframe();
             
-            // face
-            mesh.drawFaces();
+//            // face
+//            mesh.drawFaces();
 
         }
         ofPopStyle();

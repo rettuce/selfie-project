@@ -49,6 +49,11 @@ public:
         context.createContext<Recorder>();
         
         $G(Data)->setNewUser();
+        
+#ifndef MODE_DEBBUG
+        ofHideCursor();
+        ofSetFullscreen(true);
+#endif
     }
     
     void update()
@@ -56,10 +61,6 @@ public:
         context.update();
         Tweenzor::update( ofGetElapsedTimeMillis() );
 //        Tweenzor::update( ofGetFrameNum()/60.*1000. );  // 60fps
-
-        Osc *osc = $G(Osc);
-        ofxOscMessage m;
-        while (osc->get("/test/bang", m)){ ofLogNotice(m.getAddress()); };
     }
     
     void draw()
@@ -74,7 +75,9 @@ public:
         ofPopMatrix();
         glPopAttrib();
         
+#ifdef MODE_DEBBUG
         ofDrawBitmapString(ofToString(ofGetFrameRate()), WIDTH-80, 30);
+#endif
     }
     
     void keyPressed(int key)
