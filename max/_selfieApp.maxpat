@@ -214,7 +214,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
 									"patching_rect" : [ 451.0, 98.0, 36.0, 20.0 ],
-									"text" : "sel 6"
+									"text" : "sel 5"
 								}
 
 							}
@@ -466,6 +466,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -1703,7 +1704,7 @@
 										"slider[1]" : [ 58.076923 ],
 										"slider[2]" : [ 43.461536 ],
 										"slider[3]" : [ 67.307693 ],
-										"slider[4]" : [ 50.0 ],
+										"slider[4]" : [ 0.0 ],
 										"slider[5]" : [ 73.46154 ],
 										"slider[6]" : [ 58.46154 ],
 										"slider[7]" : [ 46.53846 ]
