@@ -130,7 +130,7 @@
             </DOMFrame>
             <DOMFrame index="19" duration="20" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
+                <DOMSymbolInstance libraryItemName="point" name="ball">
                   <matrix>
                     <Matrix tx="1265.1" ty="483.7"/>
                   </matrix>
@@ -160,7 +160,7 @@
             </DOMFrame>
             <DOMFrame index="58" duration="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
+                <DOMSymbolInstance libraryItemName="point" name="ball">
                   <matrix>
                     <Matrix tx="897.9" ty="695.15"/>
                   </matrix>
@@ -175,7 +175,7 @@
             </DOMFrame>
             <DOMFrame index="76" duration="19" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
+                <DOMSymbolInstance libraryItemName="point" name="ball">
                   <matrix>
                     <Matrix tx="737.1" ty="801.5"/>
                   </matrix>
@@ -190,7 +190,7 @@
             </DOMFrame>
             <DOMFrame index="95" duration="24" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
+                <DOMSymbolInstance libraryItemName="point" name="ball">
                   <matrix>
                     <Matrix tx="654.8" ty="509.05"/>
                   </matrix>

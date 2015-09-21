@@ -16,7 +16,7 @@
           <Include href="line.xml" loadImmediate="false" itemID="55fc0f92-00000129" lastModified="1442627442"/>
           <Include href="lineMC.xml" loadImmediate="false" itemID="55fcc51a-0000018b" lastModified="1442628890"/>
           <Include href="msk.xml" loadImmediate="false" itemID="55fc05aa-0000043d" lastModified="1442582290"/>
-          <Include href="point.xml" loadImmediate="false" itemID="55f9ace1-000001ce" lastModified="1442658726"/>
+          <Include href="point.xml" loadImmediate="false" itemID="55f9ace1-000001ce" lastModified="1442809012"/>
           <Include href="rect.xml" loadImmediate="false" itemID="55fc1bd8-00000159" lastModified="1442664418"/>
           <Include href="rectMC.xml" loadImmediate="false" itemID="55fcc095-00000183" lastModified="1442627734"/>
           <Include href="unframe.xml" loadImmediate="false" itemID="55fc1a6d-0000012e" lastModified="1442659591"/>
@@ -24,7 +24,7 @@
      <timelines>
           <DOMTimeline name="シーン 1">
                <layers>
-                    <DOMLayer name="kinect2" color="#9933CC" locked="true" autoNamed="false">
+                    <DOMLayer name="kinect2" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -37,7 +37,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="kinect" color="#4F80FF" locked="true" autoNamed="false">
+                    <DOMLayer name="kinect" color="#4F80FF" locked="true" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
