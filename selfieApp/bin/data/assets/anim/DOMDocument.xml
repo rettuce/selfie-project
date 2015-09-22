@@ -17,6 +17,7 @@
           <Include href="lineMC.xml" loadImmediate="false" itemID="55fcc51a-0000018b" lastModified="1442628890"/>
           <Include href="msk.xml" loadImmediate="false" itemID="55fc05aa-0000043d" lastModified="1442582290"/>
           <Include href="point.xml" loadImmediate="false" itemID="55f9ace1-000001ce" lastModified="1442809012"/>
+          <Include href="points.xml" loadImmediate="false" itemID="5600ed7e-00000134" lastModified="1442901576"/>
           <Include href="rect.xml" loadImmediate="false" itemID="55fc1bd8-00000159" lastModified="1442664418"/>
           <Include href="rectMC.xml" loadImmediate="false" itemID="55fcc095-00000183" lastModified="1442627734"/>
           <Include href="unframe.xml" loadImmediate="false" itemID="55fc1a6d-0000012e" lastModified="1442659591"/>
@@ -24,6 +25,19 @@
      <timelines>
           <DOMTimeline name="シーン 1">
                <layers>
+                    <DOMLayer name="repeat" color="#9933CC" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="kinect2" name="repeat" selected="true">
+                                             <transformationPoint>
+                                                  <Point x="960.4" y="513.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="kinect2" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
@@ -50,11 +64,24 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="circle" color="#808080" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
+                    <DOMLayer name="points" color="#4F80FF" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="circle" name="circle" selected="true">
+                                        <DOMSymbolInstance libraryItemName="points" name="points">
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="circle" color="#808080" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="circle" name="circle">
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>

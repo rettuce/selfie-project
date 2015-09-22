@@ -42,7 +42,7 @@ class Data : public ofxGlobalContext::Context
 {
     ofxQREncode qrencode;
 #ifdef MODE_DEBBUG
-    int SCENE = 5;
+    int SCENE = 4;
 #else
     int SCENE = -1;
 #endif
@@ -98,7 +98,7 @@ public:
     int getScene(){ return SCENE; }
     
     bool isKinectScene(){
-        if(SCENE==4) return true;
+//        if(SCENE==4) return true;
         return false;
     }
     

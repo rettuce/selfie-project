@@ -227,9 +227,7 @@ public:
     
     void updateScene()
     {
-//        if(ofGetFrameNum()%frameCount==0) stageInfo->update();   // $G(Data)->SCENE:0, frame:1/5, rec:750ms
-//        if(ofGetFrameNum()%frameCount==0) stageInfo->update();   // $G(Data)->SCENE:1, frame:1/7, rec:1500ms
-        if(ofGetFrameNum()%frameCount==0) stageInfo->update();     // $G(Data)->SCENE:2, frame:1/6, rec:1700ms
+        if(ofGetFrameNum()%frameCount==0) stageInfo->update();
         
         Osc *osc = $G(Osc);
         ofxOscMessage m;
@@ -242,7 +240,7 @@ public:
             $G(Data)->progress = nowMC->currentFrame() / (float)nowMC->totalFrames();
             
             // Ball position 使いたい時だけ
-            if( $G(Data)->getScene() == 0 || $G(Data)->getScene() == 3 ) {
+            if( $G(Data)->getScene() == 0 || $G(Data)->getScene() == 3 || $G(Data)->getScene() == 6 ) {
                 Tweenzor::add( &$G(Data)->nowPointer, $G(Data)->nowPointer,
                               getBallPosition(),
                               0.f, 0.1f, EASE_OUT_QUAD );
@@ -313,7 +311,10 @@ public:
         }else if($G(Data)->getScene()==3){   // circle
             frameCount = 7;
             
-        }else if($G(Data)->getScene()==4 || $G(Data)->getScene()==5){   // kinect & kinect2
+//        }else if($G(Data)->getScene()==4 || $G(Data)->getScene()==5){   // kinect & kinect2
+//            frameCount = 3;
+            
+        }else if($G(Data)->getScene()==4){   // repeat
             frameCount = 3;
         }
         
@@ -362,6 +363,9 @@ public:
         if( $G(Data)->getScene() == 0 || $G(Data)->getScene() == 3 ) {
             pos.set(nowMC->getChildByName("ball")->x(), nowMC->getChildByName("ball")->y());
         }
+#ifdef MODE_DEBBUG
+        pos.set(ofGetMouseX(), ofGetMouseY());
+#endif
         return pos;
     }
     

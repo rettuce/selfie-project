@@ -44,6 +44,47 @@ public:
     }
 };
 
+class Fly : public ofxAnimationPrimitives::Instance
+{
+public:
+    ofVec3f pos;
+    ofColor color;
+    float size, leng;
+    
+    Fly(ofVec2f pos_, ofColor color_, float size_)
+    : pos(pos_), color(color_), size(size_)
+    {
+//        float minW = (WIDTH - OUT_GIFW) * 0.5;
+//        float maxW =
+        pos = ofVec2f(100.*ofRandomf(), 100.*ofRandomf());
+//        
+//        vec.set(ofRandomf(),ofRandomf(),ofRandomf());
+//        vec.normalize();
+    }
+    void update(){
+//        pos += vec*5;
+    }
+    void draw()
+    {
+        glPushAttrib(GL_ALL_ATTRIB_BITS);
+        ofPushMatrix();
+        ofPushStyle();
+        {
+            if(rand()%2==0) ofFill();
+            else ofNoFill();
+            ofEnableAlphaBlending();
+            ofSetLineWidth(5);
+            ofSetRectMode(OF_RECTMODE_CENTER);
+            ofSetColor( color , 255*getLife());
+            ofCircle(pos, 50.+size*(1-getLife()) );
+        }
+        ofPopStyle();
+        ofPopMatrix();
+        glPopAttrib();
+    }
+};
+
+
 
 
 
@@ -86,6 +127,8 @@ public:
     }
     void drawRender()
     {
+        drawRepeat();
+        
         if($G(Data)->progress==0) return;
         
         glPushAttrib(GL_ALL_ATTRIB_BITS);
@@ -102,6 +145,8 @@ public:
                 drawRecCap();
             }else if( $G(Data)->getScene()==3 ) {
                 drawCircle();
+            }else if( $G(Data)->getScene()==4 ) {
+                drawRepeat();
             }
 
         }
@@ -178,6 +223,29 @@ public:
             mng.createInstance<Circle1>( $G(Data)->nowPointer, $G(Color)->color0, ofRandom(50,200) )->play(0.5);
         }
         mng.draw();
+    }
+    
+    void drawRepeat()
+    {
+        if(!$G(Data)->addsPixs.empty())
+        {
+            ofImage img;
+            int index = $G(Data)->addsPixs.size()-1;
+            
+            for (int i=0; i<index; i++) {
+                img.setFromPixels( ofPixels($G(Data)->addsPixs[index]) );
+                ofRectangle r = $G(Data)->rect;
+                ofSetColor(255, 255/index);
+                
+                ofPushMatrix();
+                {
+                    ofSetRectMode(OF_RECTMODE_CENTER);
+                    ofTranslate((WIDTH)*0.5,(HEIGHT)*0.5);
+                    img.draw(0,0, HEIGHT, HEIGHT);
+                }
+                ofPopMatrix();
+            }
+        }
     }
     
     

@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="points" itemID="5600ed7e-00000134" lastModified="1442901576">
+  <timeline>
+    <DOMTimeline name="points" currentFrame="76">
+      <layers>
+        <DOMLayer name="レイヤー 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="15" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
+                  <matrix>
+                    <Matrix a="1.66667175292969" d="1.66667175292969" tx="960" ty="-70.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" duration="30" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
+                  <matrix>
+                    <Matrix a="1.66667175292969" d="1.66667175292969" tx="960" ty="838.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="45" duration="30" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
+                  <matrix>
+                    <Matrix a="1.66667175292969" d="1.66667175292969" tx="669.9" ty="257.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="75" duration="30" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
+                  <matrix>
+                    <Matrix a="1.66667175292969" d="1.66667175292969" tx="1316.1" ty="391.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="105" duration="30" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball">
+                  <matrix>
+                    <Matrix a="1.66667175292969" d="1.66667175292969" tx="639.9" ty="714"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

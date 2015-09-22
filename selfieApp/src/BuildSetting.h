@@ -13,7 +13,6 @@ const unsigned int HEIGHT = 1080;
 const unsigned int OUT_GIFW = 600;
 const unsigned int OUT_GIFH = 600;
 
-
 #ifdef MODE_DEBBUG
 const string HOST = "http://selfie.rettuce.test.com/";  // local
 #else
