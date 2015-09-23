@@ -127,8 +127,6 @@ public:
     }
     void drawRender()
     {
-        drawRepeat();
-        
         if($G(Data)->progress==0) return;
         
         glPushAttrib(GL_ALL_ATTRIB_BITS);

@@ -315,7 +315,7 @@ public:
 //            frameCount = 3;
             
         }else if($G(Data)->getScene()==4){   // repeat
-            frameCount = 3;
+            frameCount = 2;
         }
         
         float InfoPracticeTime = 5.0; // インフォ+練習タイム 5s
