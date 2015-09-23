@@ -1,58 +1,14 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hall" itemID="56017246-0000013b" lastModified="1442976617" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hall" itemID="56017246-0000013b" lastModified="1442980167" lastUniqueIdentifier="7">
   <timeline>
-    <DOMTimeline name="hall" currentFrame="159">
+    <DOMTimeline name="hall" currentFrame="73">
       <layers>
-        <DOMLayer name="レイヤー 2 コピー" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="レイヤー 1" color="#4F80FF" current="true" isSelected="true">
           <frames>
-            <DOMFrame index="0" duration="160" keyMode="9728">
+            <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="curvMC" selected="true">
+                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
                   <matrix>
-                    <Matrix tx="550.65" ty="64.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="409.5" y="87.5"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.3984375"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="レイヤー 2" color="#9933CC" locked="true" autoNamed="false" visible="false" layerType="guide">
-          <frames>
-            <DOMFrame index="0" duration="160" keyMode="9728">
-              <elements>
-                <DOMShape>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="3">
-                        <fill>
-                          <SolidColor color="#FFFFFF"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge strokeStyle="1" edges="!11043 4761|11149 4613!11149 4613[11292 4425 11479 4223!11479 4223[12077 3578 12884 3041!12884 3041[14013 2288 15398 1858!15398 1858[17130 1320 19165 1320!19165 1320[21200 1320 22944 1833!22944 1833[24340 2243 25486 2961!25486 2961[26305
- 3473 26918 4088!26918 4088[27224 4396 27367 4601"/>
-                    <Edge cubics="!11043 4761(11043,4761;11043,4761 13244,1320 19165,1320q11043 4761Q11043 4761q11149 4613Q11292 4425q11479 4223Q12077 3578q12884 3041Q14013 2288q15398 1858Q17130 1320q19165 1320);"/>
-                    <Edge cubics="!19165 1320(;25086,1320 27367,4601 27367,4601q19165 1320Q21200 1320q22944 1833Q24340 2243q25486 2961Q26305 3473q26918 4088Q27224 4396q27367 4601)27367,4601;"/>
-                  </edges>
-                </DOMShape>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="レイヤー 1" color="#4F80FF" parentLayerIndex="1">
-          <frames>
-            <DOMFrame index="0" duration="39" tweenType="motion" motionTweenSnap="true" keyMode="22017">
-              <elements>
-                <DOMSymbolInstance libraryItemName="point" selected="true">
-                  <matrix>
-                    <Matrix a="5.0001220703125" d="5.0001220703125" tx="960.05" ty="66"/>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="960.05" ty="68"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -60,11 +16,11 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="39" duration="80" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="1" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="point" centerPoint3DX="1368.35" centerPoint3DY="230.05">
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="969.6" centerPoint3DY="68.05">
                   <matrix>
-                    <Matrix a="5.0001220703125" d="5.0001220703125" tx="1368.35" ty="230.05"/>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="969.6" ty="68.05"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -72,11 +28,1883 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="119" duration="40" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="point" centerPoint3DX="552.15" centerPoint3DY="238.05">
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="979" centerPoint3DY="68.15">
                   <matrix>
-                    <Matrix a="5.0001220703125" d="5.0001220703125" tx="552.15" ty="238.05"/>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="979" ty="68.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="988.4" centerPoint3DY="68.25">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="988.4" ty="68.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="997.85" centerPoint3DY="68.45">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="997.85" ty="68.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1007.25" centerPoint3DY="68.7">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1007.25" ty="68.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1016.65" centerPoint3DY="69.05">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1016.65" ty="69.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1026.1" centerPoint3DY="69.4">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1026.1" ty="69.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1035.5" centerPoint3DY="69.8">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1035.5" ty="69.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1044.9" centerPoint3DY="70.3">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1044.9" ty="70.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1054.35" centerPoint3DY="70.85">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1054.35" ty="70.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1063.75" centerPoint3DY="71.45">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1063.75" ty="71.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1073.2" centerPoint3DY="72.15">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1073.2" ty="72.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1082.6" centerPoint3DY="72.85">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1082.6" ty="72.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1092" centerPoint3DY="73.65">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1092" ty="73.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1101.45" centerPoint3DY="74.55">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1101.45" ty="74.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1110.85" centerPoint3DY="75.5">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1110.85" ty="75.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1120.25" centerPoint3DY="76.5">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1120.25" ty="76.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1129.65" centerPoint3DY="77.55">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1129.65" ty="77.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1139.05" centerPoint3DY="78.7">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1139.05" ty="78.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1148.45" centerPoint3DY="79.95">
+                  <matrix>
+                    <Matrix a="3.3333740234375" d="3.3333740234375" tx="1148.45" ty="79.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1157.85" centerPoint3DY="81.25">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1157.85" ty="81.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1167.2" centerPoint3DY="82.6">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1167.2" ty="82.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1176.6" centerPoint3DY="84.1">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1176.6" ty="84.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1185.95" centerPoint3DY="85.6">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1185.95" ty="85.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1195.3" centerPoint3DY="87.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1195.3" ty="87.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1204.65" centerPoint3DY="88.9">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1204.65" ty="88.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="27" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1213.95" centerPoint3DY="90.7">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1213.95" ty="90.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1223.3" centerPoint3DY="92.55">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1223.3" ty="92.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1232.6" centerPoint3DY="94.5">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1232.6" ty="94.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1241.9" centerPoint3DY="96.55">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1241.9" ty="96.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="31" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1251.1" centerPoint3DY="98.7">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1251.1" ty="98.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1260.25" centerPoint3DY="100.9">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1260.25" ty="100.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1269.4" centerPoint3DY="103.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1269.4" ty="103.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1278.5" centerPoint3DY="105.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1278.5" ty="105.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1287.65" centerPoint3DY="108.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1287.65" ty="108.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1296.7" centerPoint3DY="110.9">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1296.7" ty="110.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1305.75" centerPoint3DY="113.7">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1305.75" ty="113.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1314.75" centerPoint3DY="116.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1314.75" ty="116.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1323.55" centerPoint3DY="119.75">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1323.55" ty="119.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1332.25" ty="123.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="41" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1323.3" centerPoint3DY="119.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1323.3" ty="119.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="42" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1314.4" centerPoint3DY="116.55">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1314.4" ty="116.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="43" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1305.5" centerPoint3DY="113.6">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1305.5" ty="113.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1296.6" centerPoint3DY="110.85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1296.6" ty="110.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="45" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1287.6" centerPoint3DY="108.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1287.6" ty="108.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="46" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1278.6" centerPoint3DY="105.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1278.6" ty="105.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="47" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1269.55" centerPoint3DY="103.25">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1269.55" ty="103.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="48" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1260.5" centerPoint3DY="100.95">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1260.5" ty="100.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1251.45" centerPoint3DY="98.75">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1251.45" ty="98.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="50" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1242.4" centerPoint3DY="96.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1242.4" ty="96.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="51" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1233.35" centerPoint3DY="94.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1233.35" ty="94.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="52" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1224.15" centerPoint3DY="92.75">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1224.15" ty="92.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="53" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1214.95" centerPoint3DY="90.85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1214.95" ty="90.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="54" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1205.75" centerPoint3DY="89.1">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1205.75" ty="89.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1196.5" centerPoint3DY="87.4">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1196.5" ty="87.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="56" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1187.3" centerPoint3DY="85.8">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1187.3" ty="85.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="57" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1178.05" centerPoint3DY="84.3">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1178.05" ty="84.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="58" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1168.8" centerPoint3DY="82.85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1168.8" ty="82.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1159.5" centerPoint3DY="81.45">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1159.5" ty="81.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="60" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1150.25" centerPoint3DY="80.15">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1150.25" ty="80.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="61" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1141" centerPoint3DY="78.95">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1141" ty="78.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="62" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1131.7" centerPoint3DY="77.8">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1131.7" ty="77.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="63" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1122.4" centerPoint3DY="76.7">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1122.4" ty="76.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1113.1" centerPoint3DY="75.7">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1113.1" ty="75.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1103.8" centerPoint3DY="74.75">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1103.8" ty="74.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="66" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1094.55" centerPoint3DY="73.85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1094.55" ty="73.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1085.25" centerPoint3DY="73.05">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1085.25" ty="73.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1075.95" centerPoint3DY="72.3">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1075.95" ty="72.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="69" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1066.65" centerPoint3DY="71.6">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1066.65" ty="71.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="70" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1057.35" centerPoint3DY="71">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1057.35" ty="71"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="71" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1048.05" centerPoint3DY="70.45">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1048.05" ty="70.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="72" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1038.75" centerPoint3DY="69.95">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1038.75" ty="69.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="73" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" selected="true" centerPoint3DX="1029.4" centerPoint3DY="69.5">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1029.4" ty="69.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="74" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1020.15" centerPoint3DY="69.1">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1020.15" ty="69.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="75" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1010.85" centerPoint3DY="68.8">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1010.85" ty="68.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="76" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="1001.55" centerPoint3DY="68.5">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="1001.55" ty="68.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="77" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="992.25" centerPoint3DY="68.3">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="992.25" ty="68.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="78" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="982.95" centerPoint3DY="68.15">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="982.95" ty="68.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="79" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="973.65" centerPoint3DY="68">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="973.65" ty="68"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="80" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="964.35" centerPoint3DY="67.95">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="964.35" ty="67.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="81" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="955.1" centerPoint3DY="67.95">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="955.1" ty="67.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="82" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="945.9" centerPoint3DY="68">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="945.9" ty="68"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="83" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="936.7" centerPoint3DY="68.1">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="936.7" ty="68.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="84" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="927.55" centerPoint3DY="68.25">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="927.55" ty="68.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="85" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="918.4" centerPoint3DY="68.45">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="918.4" ty="68.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="86" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="909.2" centerPoint3DY="68.7">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="909.2" ty="68.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="87" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="900.05" centerPoint3DY="69.05">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="900.05" ty="69.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="88" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="890.9" centerPoint3DY="69.45">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="890.9" ty="69.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="89" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="881.7" centerPoint3DY="69.9">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="881.7" ty="69.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="90" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="872.55" centerPoint3DY="70.4">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="872.55" ty="70.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="91" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="863.35" centerPoint3DY="70.95">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="863.35" ty="70.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="92" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="854.2" centerPoint3DY="71.6">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="854.2" ty="71.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="93" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="845" centerPoint3DY="72.3">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="845" ty="72.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="94" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="835.85" centerPoint3DY="73.1">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="835.85" ty="73.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="95" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="826.7" centerPoint3DY="73.95">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="826.7" ty="73.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="96" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="817.55" centerPoint3DY="74.85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="817.55" ty="74.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="97" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="808.35" centerPoint3DY="75.85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="808.35" ty="75.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="98" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="799.2" centerPoint3DY="76.9">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="799.2" ty="76.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="99" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="790.05" centerPoint3DY="78.05">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="790.05" ty="78.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="780.9" centerPoint3DY="79.25">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="780.9" ty="79.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="101" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="771.75" centerPoint3DY="80.55">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="771.75" ty="80.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="102" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="762.65" centerPoint3DY="81.95">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="762.65" ty="81.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="103" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="753.5" centerPoint3DY="83.45">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="753.5" ty="83.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="104" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="744.4" centerPoint3DY="85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="744.4" ty="85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="105" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="735.3" centerPoint3DY="86.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="735.3" ty="86.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="106" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="726.2" centerPoint3DY="88.35">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="726.2" ty="88.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="107" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="717.15" centerPoint3DY="90.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="717.15" ty="90.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="108" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="708.05" centerPoint3DY="92.1">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="708.05" ty="92.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="109" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="699" centerPoint3DY="94.15">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="699" ty="94.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="110" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="690" centerPoint3DY="96.25">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="690" ty="96.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="111" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="681" centerPoint3DY="98.5">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="681" ty="98.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="112" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="672.1" centerPoint3DY="100.8">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="672.1" ty="100.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="113" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="663.25" centerPoint3DY="103.3">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="663.25" ty="103.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="114" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="654.4" centerPoint3DY="105.85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="654.4" ty="105.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="115" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="645.55" centerPoint3DY="108.45">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="645.55" ty="108.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="116" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="636.8" centerPoint3DY="111.35">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="636.8" ty="111.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="117" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="628.05" centerPoint3DY="114.25">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="628.05" ty="114.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="118" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="619.35" centerPoint3DY="117.45">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="619.35" ty="117.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="119" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="610.7" centerPoint3DY="120.7">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="610.7" ty="120.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="120" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="602.25" ty="124.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="121" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="610.8" centerPoint3DY="120.7">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="610.8" ty="120.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="122" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="619.55" centerPoint3DY="117.35">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="619.55" ty="117.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="123" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="628.35" centerPoint3DY="114.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="628.35" ty="114.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="124" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="637.25" centerPoint3DY="111.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="637.25" ty="111.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="125" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="646.15" centerPoint3DY="108.35">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="646.15" ty="108.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="126" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="655.1" centerPoint3DY="105.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="655.1" ty="105.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="127" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="664.05" centerPoint3DY="103.05">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="664.05" ty="103.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="128" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="673.05" centerPoint3DY="100.6">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="673.05" ty="100.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="129" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="682" centerPoint3DY="98.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="682" ty="98.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="130" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="691.05" centerPoint3DY="96.1">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="691.05" ty="96.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="131" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="700.25" centerPoint3DY="93.95">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="700.25" ty="93.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="132" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="709.35" centerPoint3DY="91.8">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="709.35" ty="91.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="133" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="718.55" centerPoint3DY="89.85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="718.55" ty="89.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="134" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="727.8" centerPoint3DY="88">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="727.8" ty="88"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="135" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="737" centerPoint3DY="86.25">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="737" ty="86.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="136" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="746.25" centerPoint3DY="84.6">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="746.25" ty="84.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="137" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="755.5" centerPoint3DY="83.05">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="755.5" ty="83.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="138" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="764.8" centerPoint3DY="81.55">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="764.8" ty="81.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="139" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="774.05" centerPoint3DY="80.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="774.05" ty="80.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="140" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="783.35" centerPoint3DY="78.9">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="783.35" ty="78.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="141" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="792.6" centerPoint3DY="77.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="792.6" ty="77.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="142" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="801.9" centerPoint3DY="76.55">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="801.9" ty="76.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="143" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="811.2" centerPoint3DY="75.45">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="811.2" ty="75.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="144" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="820.5" centerPoint3DY="74.5">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="820.5" ty="74.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="145" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="829.8" centerPoint3DY="73.6">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="829.8" ty="73.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="146" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="839.1" centerPoint3DY="72.75">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="839.1" ty="72.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="147" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="848.4" centerPoint3DY="72">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="848.4" ty="72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="148" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="857.7" centerPoint3DY="71.3">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="857.7" ty="71.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="149" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="867" centerPoint3DY="70.7">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="867" ty="70.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="150" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="876.3" centerPoint3DY="70.1">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="876.3" ty="70.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="151" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="885.6" centerPoint3DY="69.65">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="885.6" ty="69.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="152" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="894.9" centerPoint3DY="69.2">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="894.9" ty="69.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="153" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="904.2" centerPoint3DY="68.85">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="904.2" ty="68.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="154" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="913.5" centerPoint3DY="68.55">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="913.5" ty="68.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="155" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="922.8" centerPoint3DY="68.3">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="922.8" ty="68.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="156" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="932.1" centerPoint3DY="68.1">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="932.1" ty="68.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="157" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="941.4" centerPoint3DY="68">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="941.4" ty="68"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="158" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" name="ball" centerPoint3DX="950.65" centerPoint3DY="67.9">
+                  <matrix>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="950.65" ty="67.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -86,13 +1914,32 @@
             </DOMFrame>
             <DOMFrame index="159" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="point">
+                <DOMSymbolInstance libraryItemName="point" name="ball">
                   <matrix>
-                    <Matrix a="5.0001220703125" d="5.0001220703125" tx="960.05" ty="66"/>
+                    <Matrix a="3.33332824707031" d="3.33332824707031" tx="960.05" ty="68"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="レイヤー 2 コピー" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="160" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="curv">
+                  <matrix>
+                    <Matrix tx="594.15" ty="68"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="370.1" y="30"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3984375"/>
+                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

@@ -2,7 +2,7 @@
      <media>
           <DOMBitmapItem name="arrow" itemID="55fee254-00000138" sourceExternalFilepath="ビットマップ1.png" sourceLastImported="1442767432" sourcePlatform="macintosh" externalFileSize="3603" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="arrow.png" bitmapDataHRef="M 2 1442767432.dat" frameRight="5640" frameBottom="13120"/>
           <DOMBitmapItem name="arrow2" itemID="55feeba1-000001d6" sourceExternalFilepath="ビットマップ1.png" sourceLastImported="1442769825" sourcePlatform="macintosh" externalFileSize="13369" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="arrow2.png" bitmapDataHRef="M 6 1442769811.dat" frameRight="11960" frameBottom="13940"/>
-          <DOMBitmapItem name="curv" itemID="56021356-00000151" sourceExternalFilepath="ビットマップ1.png" sourceLastImported="1442976598" sourcePlatform="macintosh" externalFileSize="3762" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="curv.png" bitmapDataHRef="M 4 1442976582.dat" frameRight="16380" frameBottom="3500"/>
+          <DOMBitmapItem name="curvline" itemID="56021f34-00000165" sourceExternalFilepath="../anim/LIBRARY/curvline.png" sourceLastImported="1442979607" sourcePlatform="macintosh" externalFileSize="2040" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="curvline.png" bitmapDataHRef="M 6 1442979598.dat" frameRight="14860" frameBottom="1260"/>
           <DOMBitmapItem name="ビットマップ1" itemID="55fcbfac-00000181" sourceExternalFilepath="../anim/LIBRARY/ビットマップ1.png" sourceLastImported="1442627443" sourcePlatform="macintosh" externalFileSize="17792" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ビットマップ1.png" bitmapDataHRef="M 1 1442627442.dat" frameRight="18080" frameBottom="6440"/>
      </media>
      <symbols>
@@ -10,11 +10,11 @@
           <Include href="arrowMC2.xml" loadImmediate="false" itemID="55feebd3-000001db" lastModified="1442769875"/>
           <Include href="circle.xml" loadImmediate="false" itemID="55fc1ca3-00000162" lastModified="1442791792"/>
           <Include href="circleMC.xml" loadImmediate="false" itemID="55fcc0af-00000187" lastModified="1442627760"/>
-          <Include href="curvMC.xml" loadImmediate="false" itemID="5602135f-00000153" lastModified="1442976607"/>
+          <Include href="curv.xml" loadImmediate="false" itemID="56021d7b-00000142" lastModified="1442979598"/>
           <Include href="drawingLine.xml" loadImmediate="false" itemID="55fc102e-00000125" lastModified="1442628062"/>
           <Include href="end.xml" loadImmediate="false" itemID="560213b6-00000158" lastModified="1442977444"/>
           <Include href="finger.xml" loadImmediate="false" itemID="55fc1ad5-0000013d" lastModified="1442646544"/>
-          <Include href="hall.xml" loadImmediate="false" itemID="56017246-0000013b" lastModified="1442976617"/>
+          <Include href="hall.xml" loadImmediate="false" itemID="56017246-0000013b" lastModified="1442980167"/>
           <Include href="kinect.xml" loadImmediate="false" itemID="55fee28e-00000143" lastModified="1442767778"/>
           <Include href="kinect2.xml" loadImmediate="false" itemID="55fee3dc-0000016d" lastModified="1442769877"/>
           <Include href="line.xml" loadImmediate="false" itemID="55fc0f92-00000129" lastModified="1442627442"/>
@@ -29,7 +29,7 @@
      <timelines>
           <DOMTimeline name="シーン 1">
                <layers>
-                    <DOMLayer name="end" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="end" color="#9933CC" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -42,7 +42,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="hall" color="#4F80FF" autoNamed="false">
+                    <DOMLayer name="hall" color="#4F80FF" autoNamed="false" heightLiteral="15">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -182,6 +182,18 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="35140" publishTime="1442980023"/>
+          <PublishItem publishSize="35140" publishTime="1442979954"/>
+          <PublishItem publishSize="35085" publishTime="1442979632"/>
+          <PublishItem publishSize="35057" publishTime="1442979417"/>
+          <PublishItem publishSize="33474" publishTime="1442979401"/>
+          <PublishItem publishSize="33474" publishTime="1442979339"/>
+          <PublishItem publishSize="33570" publishTime="1442979320"/>
+          <PublishItem publishSize="33570" publishTime="1442979302"/>
+          <PublishItem publishSize="32508" publishTime="1442979294"/>
+          <PublishItem publishSize="32508" publishTime="1442978879"/>
+          <PublishItem publishSize="36727" publishTime="1442978849"/>
+          <PublishItem publishSize="32508" publishTime="1442978429"/>
           <PublishItem publishSize="36714" publishTime="1442977076"/>
           <PublishItem publishSize="36521" publishTime="1442976619"/>
           <PublishItem publishSize="32310" publishTime="1442906924"/>
@@ -190,17 +202,5 @@
           <PublishItem publishSize="32234" publishTime="1442769880"/>
           <PublishItem publishSize="21223" publishTime="1442769775"/>
           <PublishItem publishSize="21908" publishTime="1442769746"/>
-          <PublishItem publishSize="32972" publishTime="1442769648"/>
-          <PublishItem publishSize="33211" publishTime="1442769032"/>
-          <PublishItem publishSize="32918" publishTime="1442768322"/>
-          <PublishItem publishSize="20336" publishTime="1442767779"/>
-          <PublishItem publishSize="20331" publishTime="1442767748"/>
-          <PublishItem publishSize="20343" publishTime="1442767708"/>
-          <PublishItem publishSize="17826" publishTime="1442664419"/>
-          <PublishItem publishSize="17826" publishTime="1442661710"/>
-          <PublishItem publishSize="17826" publishTime="1442661674"/>
-          <PublishItem publishSize="18257" publishTime="1442659593"/>
-          <PublishItem publishSize="18257" publishTime="1442658875"/>
-          <PublishItem publishSize="18290" publishTime="1442646419"/>
      </publishHistory>
 </DOMDocument>

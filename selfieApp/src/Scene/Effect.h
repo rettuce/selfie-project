@@ -89,19 +89,49 @@ public:
     void draw()
     {
         ofPushMatrix();
-        
-        glLineWidth(5);
-        glBegin(GL_LINE_STRIP);
-        for (int i = 0; i < points.size(); i++)
+        ofPushStyle();
         {
-            ofSetColor(color, ofMap(i, 0, points.size(), 0, 255) * getLife()*((float)color.a/255.));
-            glVertex3fv(points[i].getPtr());
+            glLineWidth(5);
+            glBegin(GL_LINE_STRIP);
+            for (int i = 0; i < points.size(); i++)
+            {
+                ofSetColor(color, ofMap(i, 0, points.size(), 0, 255) * getLife()*((float)color.a/255.));
+                glVertex3fv(points[i].getPtr());
+            }
+            glEnd();
         }
-        glEnd();
-        
+        ofPopStyle();
         ofPopMatrix();
     }
 };
+
+class Line2 : public ofxAnimationPrimitives::Instance
+{
+    ofVec2f p0,p1;
+    ofColor color;
+public:
+    
+    Line2( const ofVec2f& p0_, const ofVec2f& p1_, const ofColor& color )
+    : p0(p0_), p1(p1_), color(color)
+    {}
+    void update(){}
+    void draw()
+    {
+        ofPushMatrix();
+        ofPushStyle();
+        {
+            glLineWidth(3);
+            glBegin(GL_LINE_STRIP);
+            ofSetColor(color, 255. * getLife() );
+            glVertex2f( p0.x + ofRandomf()*30, p0.y + ofRandomf()*30 );
+            glVertex2f( p1.x + ofRandomf()*30, p1.y + ofRandomf()*30 );
+            glEnd();
+        }
+        ofPopStyle();
+        ofPopMatrix();
+    }
+};
+
 
 
 
@@ -145,11 +175,7 @@ public:
     }
     void drawRender()
     {
-<<<<<<< Updated upstream
-=======
-        drawHall();
         
->>>>>>> Stashed changes
         if($G(Data)->progress==0) return;
         
         glPushAttrib(GL_ALL_ATTRIB_BITS);
@@ -169,9 +195,10 @@ public:
             }else if( $G(Data)->getScene()==4 ) {
                 drawRepeat();
             }else if( $G(Data)->getScene()==5 ) {
+                cout<< "drawHall" <<endl;
                 drawHall();
             }else if( $G(Data)->getScene()==6 ) {
-                drawHall();
+                drawEnd();
             }
 
         }
@@ -281,8 +308,7 @@ public:
     void bang()
     {
         ofColor lineColor = $G(Color)->color1;
-//        ofVec3f start = $G(Camera)->getPosition() * -1;
-        ofVec3f start(WIDTH*0.5, 110, 0);
+        ofVec3f start = $G(Data)->nowPointer;
         
         for (int i=0; i<20; i++) {
             float life = ofRandom(2);
@@ -294,20 +320,39 @@ public:
     
     void drawEnd()
     {
-        if(ofGetFrameNum()%4==0) bang2();
-        mng.draw();
+        if(!$G(Data)->rposis.empty())
+        {
+            if(ofGetFrameNum()%4==0){
+                bang2(0,1);
+                bang2(1,2);
+                bang2(2,3);
+                bang2(3,4);
+                bang2(2,5);
+                
+                bang2(6,7);
+                bang2(7,8);
+                bang2(8,9);
+                
+                bang2(10,11);
+                bang2(10,14);
+                bang2(11,12);
+                bang2(12,13);
+                bang2(13,14);
+            }
+            mng.draw();
+        }
     }
-    void bang2()
+    void bang2(int ind0, int ind1)
     {
         ofColor lineColor0 = $G(Color)->color0;
         ofColor lineColor1 = $G(Color)->color1;
-        ofVec2f start(100, 100);
-        ofVec2f end(200, 100);
+        ofVec2f start = $G(Data)->rposis[ind0];
+        ofVec2f end = $G(Data)->rposis[ind1];
         
-        for (int i=0; i<3; i++) {
-            float life = ofRandom(2);
-            mng.createInstance<Lines>( life, start, end, lineColor0, ofRandom(3.) );
-            mng.createInstance<Lines>( life, start, end, lineColor1, ofRandom(3.) );
+        for (int i=0; i<5; i++) {
+            float life = ofRandom(3);
+            mng.createInstance<Line2>( start, end, lineColor0 )->play(life);
+            mng.createInstance<Line2>( start, end, lineColor1 )->play(life);
         }
     }
 

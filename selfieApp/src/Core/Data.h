@@ -42,7 +42,7 @@ class Data : public ofxGlobalContext::Context
 {
     ofxQREncode qrencode;
 #ifdef MODE_DEBBUG
-    int SCENE = 5;
+    int SCENE = 6;
 #else
     int SCENE = -1;
 #endif
@@ -70,14 +70,16 @@ public:
     
     // add frame
     vector<ofPixels> addsPixs;
-    
+    vector<ofVec2f> rposis;
     
     
     
     void clear()
     {
         addsPixs.clear();
+        rposis.clear();
         std::vector<ofPixels>().swap(addsPixs);
+        std::vector<ofVec2f>().swap(rposis);
         
         progress = 0.;
         qrimg.pos.y = -1000;

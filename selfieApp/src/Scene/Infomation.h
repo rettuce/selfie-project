@@ -190,6 +190,7 @@ public:
             infos[name] = ofImage("assets/images/"+ name + ".png");
             mc->visible(false);
             mc->stop();
+//            mc->play();
         }
         
 //        for(auto itr = mcs.begin(); itr != mcs.end(); ++itr) {
@@ -234,13 +235,13 @@ public:
         
         if(osc->getLatest("/info/init", m)) init();
         if(osc->getLatest("/info/play", m)) preset( m.getArgAsInt32(0), m.getArgAsString(1) );
-
+        
         if(nowMC && $G(Data)->isRunning )
         {
             $G(Data)->progress = nowMC->currentFrame() / (float)nowMC->totalFrames();
             
             // Ball position 使いたい時だけ
-            if( $G(Data)->getScene() == 0 || $G(Data)->getScene() == 3 || $G(Data)->getScene() == 6 ) {
+            if(($G(Data)->getScene() == 0 || $G(Data)->getScene() == 3) || $G(Data)->getScene() == 5 ) {
                 Tweenzor::add( &$G(Data)->nowPointer, $G(Data)->nowPointer,
                               getBallPosition(),
                               0.f, 0.1f, EASE_OUT_QUAD );
@@ -306,7 +307,9 @@ public:
             frameCount = 7;
         }else if($G(Data)->getScene()==2){   // rect
             frameCount = 6;
-            $G(Data)->rect = ofRectangle( nowMC->getChildByName("rect")->x(), nowMC->getChildByName("rect")->y(),
+            $G(Data)->rect = ofRectangle(
+                                         nowMC->getChildByName("rect")->x(),
+                                         nowMC->getChildByName("rect")->y(),
                                          450, 450);
         }else if($G(Data)->getScene()==3){   // circle
             frameCount = 7;
@@ -316,6 +319,15 @@ public:
             
         }else if($G(Data)->getScene()==4){   // repeat
             frameCount = 2;
+            
+        }else if($G(Data)->getScene()==6){   // repeat
+            frameCount = 3;
+            for (int i=0; i<15; i++) {
+                $G(Data)->rposis.push_back(ofVec2f(
+                                                   nowMC->getChildByName("p"+ofToString(i))->x(),
+                                                   nowMC->getChildByName("p"+ofToString(i))->y()
+                                                   ));
+            }
         }
         
         float InfoPracticeTime = 5.0; // インフォ+練習タイム 5s
@@ -357,15 +369,12 @@ public:
     }
     
     
-    // SCENE 0,3
+    // SCENE 0,3,5
     ofVec2f getBallPosition() {
         ofVec2f pos = ofVec2f::zero();
-        if( $G(Data)->getScene() == 0 || $G(Data)->getScene() == 3 ) {
+        if(($G(Data)->getScene() == 0 || $G(Data)->getScene() == 3) || $G(Data)->getScene() == 5 ) {
             pos.set(nowMC->getChildByName("ball")->x(), nowMC->getChildByName("ball")->y());
         }
-#ifdef MODE_DEBBUG
-        pos.set(ofGetMouseX(), ofGetMouseY());
-#endif
         return pos;
     }
     
