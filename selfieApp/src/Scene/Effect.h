@@ -44,46 +44,64 @@ public:
     }
 };
 
-class Fly : public ofxAnimationPrimitives::Instance
+class Lines : public ofxAnimationPrimitives::Instance
 {
-public:
     ofVec3f pos;
+    ofVec3f vec;
+    float size;
     ofColor color;
-    float size, leng;
+    vector<ofVec3f> points;
+public:
     
-    Fly(ofVec2f pos_, ofColor color_, float size_)
-    : pos(pos_), color(color_), size(size_)
+    Lines( float dur, const ofVec3f& pos_, const ofColor& color, float lv)
+    : color(color)
     {
-//        float minW = (WIDTH - OUT_GIFW) * 0.5;
-//        float maxW =
-        pos = ofVec2f(100.*ofRandomf(), 100.*ofRandomf());
-//        
-//        vec.set(ofRandomf(),ofRandomf(),ofRandomf());
-//        vec.normalize();
+        float randsize = 20.;
+        ofVec3f rand( ofRandomf()*randsize, ofRandomf()*randsize, ofRandomf()*randsize );
+        pos = rand + pos_;
+        
+        vec.x = ofRandom(-lv, lv);
+        vec.y = ofRandom(-lv, lv);
+        vec.z = ofRandom(lv);
+        play(dur);
     }
-    void update(){
-//        pos += vec*5;
+    
+    void update()
+    {
+        ofVec3f force;
+        force.x = ofRandom(-8,8);
+        force.y = ofRandom(-4,4);
+        force.z = ofRandom(5);
+        
+        vec *= 1.03;
+        vec.rotate(cos(pos.x*0.01)*ofRandom(-30,30), pos.getNormalized());
+        
+        if(ofRandomf()>0.9)
+            vec.x *= -1;
+        if(ofRandomf()>0.9)
+            vec.y *= -1;
+        
+        vec += force * 0.2;
+        pos += vec * 0.5;
+        points.push_back(pos);
     }
+    
     void draw()
     {
-        glPushAttrib(GL_ALL_ATTRIB_BITS);
         ofPushMatrix();
-        ofPushStyle();
+        
+        glLineWidth(5);
+        glBegin(GL_LINE_STRIP);
+        for (int i = 0; i < points.size(); i++)
         {
-            if(rand()%2==0) ofFill();
-            else ofNoFill();
-            ofEnableAlphaBlending();
-            ofSetLineWidth(5);
-            ofSetRectMode(OF_RECTMODE_CENTER);
-            ofSetColor( color , 255*getLife());
-            ofCircle(pos, 50.+size*(1-getLife()) );
+            ofSetColor(color, ofMap(i, 0, points.size(), 0, 255) * getLife()*((float)color.a/255.));
+            glVertex3fv(points[i].getPtr());
         }
-        ofPopStyle();
+        glEnd();
+        
         ofPopMatrix();
-        glPopAttrib();
     }
 };
-
 
 
 
@@ -127,6 +145,11 @@ public:
     }
     void drawRender()
     {
+<<<<<<< Updated upstream
+=======
+        drawHall();
+        
+>>>>>>> Stashed changes
         if($G(Data)->progress==0) return;
         
         glPushAttrib(GL_ALL_ATTRIB_BITS);
@@ -145,6 +168,10 @@ public:
                 drawCircle();
             }else if( $G(Data)->getScene()==4 ) {
                 drawRepeat();
+            }else if( $G(Data)->getScene()==5 ) {
+                drawHall();
+            }else if( $G(Data)->getScene()==6 ) {
+                drawHall();
             }
 
         }
@@ -246,7 +273,44 @@ public:
         }
     }
     
+    void drawHall()
+    {
+        if(ofGetFrameNum()%4==0) bang();
+        mng.draw();
+    }
+    void bang()
+    {
+        ofColor lineColor = $G(Color)->color1;
+//        ofVec3f start = $G(Camera)->getPosition() * -1;
+        ofVec3f start(WIDTH*0.5, 110, 0);
+        
+        for (int i=0; i<20; i++) {
+            float life = ofRandom(2);
+            float vectorRandom = ofRandom(3.);
+            mng.createInstance<Lines>( life, start, lineColor, vectorRandom );
+        }
+    }
     
+    
+    void drawEnd()
+    {
+        if(ofGetFrameNum()%4==0) bang2();
+        mng.draw();
+    }
+    void bang2()
+    {
+        ofColor lineColor0 = $G(Color)->color0;
+        ofColor lineColor1 = $G(Color)->color1;
+        ofVec2f start(100, 100);
+        ofVec2f end(200, 100);
+        
+        for (int i=0; i<3; i++) {
+            float life = ofRandom(2);
+            mng.createInstance<Lines>( life, start, end, lineColor0, ofRandom(3.) );
+            mng.createInstance<Lines>( life, start, end, lineColor1, ofRandom(3.) );
+        }
+    }
+
     
 
 };

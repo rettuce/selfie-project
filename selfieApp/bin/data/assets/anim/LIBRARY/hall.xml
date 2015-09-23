@@ -1,0 +1,104 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="hall" itemID="56017246-0000013b" lastModified="1442976617" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="hall" currentFrame="159">
+      <layers>
+        <DOMLayer name="レイヤー 2 コピー" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="160" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="curvMC" selected="true">
+                  <matrix>
+                    <Matrix tx="550.65" ty="64.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="409.5" y="87.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3984375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="レイヤー 2" color="#9933CC" locked="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="160" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="3">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!11043 4761|11149 4613!11149 4613[11292 4425 11479 4223!11479 4223[12077 3578 12884 3041!12884 3041[14013 2288 15398 1858!15398 1858[17130 1320 19165 1320!19165 1320[21200 1320 22944 1833!22944 1833[24340 2243 25486 2961!25486 2961[26305
+ 3473 26918 4088!26918 4088[27224 4396 27367 4601"/>
+                    <Edge cubics="!11043 4761(11043,4761;11043,4761 13244,1320 19165,1320q11043 4761Q11043 4761q11149 4613Q11292 4425q11479 4223Q12077 3578q12884 3041Q14013 2288q15398 1858Q17130 1320q19165 1320);"/>
+                    <Edge cubics="!19165 1320(;25086,1320 27367,4601 27367,4601q19165 1320Q21200 1320q22944 1833Q24340 2243q25486 2961Q26305 3473q26918 4088Q27224 4396q27367 4601)27367,4601;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="レイヤー 1" color="#4F80FF" parentLayerIndex="1">
+          <frames>
+            <DOMFrame index="0" duration="39" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" selected="true">
+                  <matrix>
+                    <Matrix a="5.0001220703125" d="5.0001220703125" tx="960.05" ty="66"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" duration="80" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" centerPoint3DX="1368.35" centerPoint3DY="230.05">
+                  <matrix>
+                    <Matrix a="5.0001220703125" d="5.0001220703125" tx="1368.35" ty="230.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="119" duration="40" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point" centerPoint3DX="552.15" centerPoint3DY="238.05">
+                  <matrix>
+                    <Matrix a="5.0001220703125" d="5.0001220703125" tx="552.15" ty="238.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="159" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="point">
+                  <matrix>
+                    <Matrix a="5.0001220703125" d="5.0001220703125" tx="960.05" ty="66"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

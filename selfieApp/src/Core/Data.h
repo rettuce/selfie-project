@@ -42,7 +42,7 @@ class Data : public ofxGlobalContext::Context
 {
     ofxQREncode qrencode;
 #ifdef MODE_DEBBUG
-    int SCENE = 4;
+    int SCENE = 5;
 #else
     int SCENE = -1;
 #endif

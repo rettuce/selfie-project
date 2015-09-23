@@ -88,7 +88,8 @@ public:
 #ifdef MODE_DEBBUG
         ofSetColor(0);
         float size = 200.;
-        float xx = ((float)WIDTH-size)*0.5;
+//        float xx = ((float)WIDTH-size)*0.5;
+        float xx = ((float)WIDTH-(30+size));
         ofRect( xx, 5, size, size);
         ofSetColor(255);
         render.draw( xx, 5, size, size);
